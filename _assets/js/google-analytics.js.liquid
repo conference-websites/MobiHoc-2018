@@ -1,0 +1,7 @@
+(function(win, doc, script) {
+    {% if site.google.analytics %}
+    // Google Analytics
+    win._gaq=[["_setAccount",'{{ site.google.analytics }}'],["_trackPageview"]];
+    add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
+    {% endif %}
+}(window, document, 'script'));

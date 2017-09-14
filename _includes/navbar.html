@@ -1,0 +1,36 @@
+<!-- NAVIGATION -->
+<aside id="nav" class="col-sm-3 col-lg-3">
+  <nav>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      {% for item in include.menu %}
+        {% if item.url[0,4] == "http" %}
+          {% assign url = item.url %}
+        {% else %}
+          {% capture url %}{{ site.baseurl }}{{ item.url }}{% endcapture %}
+        {% endif %}
+        <div class="panel {% if item.name == page.title or item.name == page.group %}panel-primary{% else %}panel-default{% endif %}">
+          <div class="panel-heading" role="tab" id="heading{{ forloop.index }}"
+               {% if item.submenu %}
+               onclick="$('#collapse{{ forloop.index }}').collapse('toggle')"
+               {% elsif item.name != page.title and item.name != page.group %}              
+               onclick="window.location = '{{ url }}'"
+               {% endif %}
+          >
+            <h4 class="panel-title">{{ item.name }}</h4>
+          </div>
+          <div id="collapse{{ forloop.index }}" class="panel-collapse collapse {% if page.group == item.name %}in{% endif %}" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+            <div class="list-group">
+              {% for subitem in item.submenu %}
+                {% if subitem.url[0,4] == "http" %}
+                  {% assign url = subitem.url %}
+                {% else %}
+                  {% capture url %}{{ site.baseurl }}{{ subitem.url }}{% endcapture %}
+                {% endif %}
+                <a href="{{ url }}" class="list-group-item {% if subitem.name == page.title %}current{% endif %}">{{ subitem.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </nav>
+</aside>

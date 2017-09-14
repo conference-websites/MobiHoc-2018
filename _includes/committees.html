@@ -1,0 +1,13 @@
+<div id="committee">
+  {% for committee in include.committees %}
+  <p class="lead">{{ committee.role }}</p>
+  <ul>
+    {% for person in committee.people %}
+    <li>
+      <span class="name">{% if person.homepage %}<a href="{{ person.homepage }}">{% endif %}{{ person.name }}{% if person.homepage %}</a>{% endif %}</span>{% if person.affiliation %}, {{ person.affiliation }}{% endif %}
+      
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</div>

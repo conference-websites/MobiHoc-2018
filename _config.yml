@@ -1,0 +1,48 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+highlighter: rouge
+markdown: kramdown
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache', '.asset-cache']
+
+plugins:
+  - jekyll-assets
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+
+title: "MobiHoc 2018"
+description: "MobiHoc 2018, the Nineteenth International Symposium on Mobile Ad Hoc Networking and Computing, will focus on the latest research in the rapidly growing area of mobile ad hoc networking and computing. This symposium will be held in Los Angeles, USA in June 2018."
+
+baseurl: "/mobihoc/2018"
+url: "https://www.sigmobile.org"
+
+google:
+  - analytics: UA-83529610-3
+
+## Note. Uncomment and update spreadsheet parameters to enable pulling program
+##       data from Google Sheet(s)
+# program:
+#   # If the specified file doesn't exist, there will be command-line dialog to create it
+#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+#   google_client_id: .travis.d/google_client_id.json
+#   # Google spreadsheet with the conference data
+#   spreadsheet:
+#     - "1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE" # main
+
+assets:
+  cache: .sass-cache
+  features:
+    automatic_img_size: false
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
