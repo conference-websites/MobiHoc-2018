@@ -17,13 +17,21 @@ env:
   - secure: v58ONnCdgt3x65Ci/+5RB8Lgo4uaY+fztbE5QAAXip5HpyOzwNuZtZwAEbbkIDyiocpESaQTkOTypJPRDgtQ9+4NWHwv1J3riq9GLmhPMcnI5+QgyiUfh54yXvPhjG4AWyn0MZzJ6Op4s0WCGvGUBg/r/KCnrpfkcEeGqUHc+02WgmuMOxRYUh0qMXLXlE+lmtey6atsj/4x97x+FXqoXtZdyq8qcFBgKjIZRm+/iv1BUj+BS62tsvVpke+fChJ0YCxdrQh4e59NmUvxrvHG7AZOSWIH02u8aDuU4ZNsUiRJiB7JbqXa+6D3T/A8umQ22OOY2M4ZtkLS1lq/iE2xf9xexexDKVV4TabX2sukRAP6JnUf0mITO8NKHBPO+46JXg9bLQz5aKTLS/Q5c6vVq0DZXwnRfNAystKohEEOtN4A0PBewQktnXpLgvUl/el8g6AzPuHbp6VBcizCu7TccRtCK+kKhreTKy3iMQ8Dqokf/C8FKIpx9KUiINwkZC4bdpwN0diCRPVpX3lTkZLSmUxqR1z6Xuo3AphmzqQ5hfbrblERfWwnwj1h/7sUTllt7NHGSAkDMHL5Ljvz4C34rOIuu2MBT9UrzcKaSv0i4mBxySJ3S1J4Y0pc2yO2iHFpVM82FoGjIXPW5CGCIfcpTajIUkgLGNMPmo983oNf8mA=
   - secure: k/ixqHOc4B2duyMx+OY6swTpy67quNCEXUnQK7i4AUJ0S5FrT0t0zbvDVxQblxm1EsdcrMTzpdINK3NpVhy20TYqQdSpE82aJ4QnFdZcqG6miU6YImlav2jKrHFwgSaOzVn9uW9XRnkgv0IxXrjYFwhzwnCQ5xN5qugYtD1jC8IoW9/y0LWJ8Kqq6YDG0O60pWYWL/c+JyjT/GZYh7dPiMN7nH2S/RXjJ9xmBRyfVHBuFX4BB4bOhwlrCSNef2e0Iur92IcmD5BrZQX+V8uTXJeSnEvfgobSxIlGDOF0GsCn34PgkMYqMgsV7DP8tmaseFLVF7wAZu59tZh1Mevc63iUVXUO72Z56UpqXoKw/mWoPtUdWY4dlJWeLAr+ueR3bTfHH4L+goX9/6fV0+dU/pq2pjM632FvbqZ/HoRqG1tXD/vJCYsXZDSjfrEYxyivxSVLA1H3YeEE2DDCNLlWz/OxGg7QRjrUzvJarwvdGA0roE0KQEthyXOuJYhOAxLMl9Nyujj1UovUszMFmSAzZtzylYq00Hf9xHTCDqqw5Fnk/nGGQtykNOKWuRl32UtygEKDvQt3hd97E5oPGk+1AznCvOztgaGup8aKhxQL7ykDLq/h3jhuDz34QaFasQMOIShpBM7gxVU/1r+151csN+No8iumvUsNw2RpShOpqKw=
 script:
-- npm install -g bower
-- bower install
-- gem install bundler
-- bundle exec jekyll build
-after_success:
-- echo set ftp:ssl-force on > ~/.lftprc
-- echo set ftp:ssl-protect-data on >> ~/.lftprc
-- echo set ssl:verify-certificate no >> ~/.lftprc
-- lftp -u "$USERNAME,$PASSWORD" "$SERVER" -e "mirror --delete --delete-first --verbose
-  -R _site/ .; bye"
+  - npm install -g bower
+  - bower install
+  - gem install bundler
+  - bundle exec jekyll build
+# after_success:
+  - echo set ftp:ssl-force on > ~/.lftprc
+  - echo set ftp:ssl-protect-data on >> ~/.lftprc
+  - echo set ssl:verify-certificate no >> ~/.lftprc
+  - lftp -u "$USERNAME,$PASSWORD" "$SERVER" -e "mirror --delete --delete-first --verbose -R _site/ .; bye" || true
+  - bundle exec jekyll clean
+  - bundle exec jekyll build --config _config.yml,_config-tmp.yml
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: _site
+  on:
+    branch: master
