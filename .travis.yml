@@ -1,0 +1,29 @@
+language: ruby
+sudo: false
+dist: trusty
+rvm:
+- 2.2
+branches:
+  only:
+  - master
+addons:
+  apt:
+    packages:
+    - lftp
+env:
+  global:
+  - JEKYLL_ENV=production
+  - secure: OytS/7Gph2D1y3kBdqesd0rkwuq/OHyRLQmHXbyLPDGRRb7oXySwYipF04aPSGSTrFCnt0QeDsd0XjhxlBfI2GabbTO99kIGK/CtoRugwaCzzf34W238taAGRRzX1L53kz5vkbgfFNC5si0zX7Bm/NRZ0zRc89IA5FZyBYYvkIPU8yZO+hJjiJsMaR5qRFvxm6Qq0RTdhU6YcahmAQsDCdu10lJQ5bNp0V936xawNyLCSILvf8DK0Al7Dm/emiygoNm6FHWxo/gc3gR5FAi0M8Ql8eFW8RcbDL9z2kf38fFMCi/qI5iYkb8pTtq2oFncaStWlYuKBCQ1eEksOKPWs40ZtNb4qi0yz1J9N48rVte2IRQeDXVuwN+r4aFVxjuZZ0d2ORXEAsxMSIHw4cqkXpn90VqpOHSt/zz3CbcYNVG4reTmZU1IxzzCkxj71j43jQxGxT6F05j7HxiIhG4u1qI5Ypb7TafxbVBZr9AJ6w4EZxkHPjrTfnfBhKehvPUgtGy3xs6KFf9WdylAHKH7QGvqBIKwf33r0l25kdXSMBR/I4gJlAyB/eVtpiM5t0ax5+ZUwSKA/3XyMFt1BJGSWXb4rFLb7fN8h8UxWcVeywl1sckPhuyd4OPAOVREfiGBkTRXdAFHYN6QfdarzcbxVP0CStH2i+41qYP48CBUZJk=
+  - secure: v58ONnCdgt3x65Ci/+5RB8Lgo4uaY+fztbE5QAAXip5HpyOzwNuZtZwAEbbkIDyiocpESaQTkOTypJPRDgtQ9+4NWHwv1J3riq9GLmhPMcnI5+QgyiUfh54yXvPhjG4AWyn0MZzJ6Op4s0WCGvGUBg/r/KCnrpfkcEeGqUHc+02WgmuMOxRYUh0qMXLXlE+lmtey6atsj/4x97x+FXqoXtZdyq8qcFBgKjIZRm+/iv1BUj+BS62tsvVpke+fChJ0YCxdrQh4e59NmUvxrvHG7AZOSWIH02u8aDuU4ZNsUiRJiB7JbqXa+6D3T/A8umQ22OOY2M4ZtkLS1lq/iE2xf9xexexDKVV4TabX2sukRAP6JnUf0mITO8NKHBPO+46JXg9bLQz5aKTLS/Q5c6vVq0DZXwnRfNAystKohEEOtN4A0PBewQktnXpLgvUl/el8g6AzPuHbp6VBcizCu7TccRtCK+kKhreTKy3iMQ8Dqokf/C8FKIpx9KUiINwkZC4bdpwN0diCRPVpX3lTkZLSmUxqR1z6Xuo3AphmzqQ5hfbrblERfWwnwj1h/7sUTllt7NHGSAkDMHL5Ljvz4C34rOIuu2MBT9UrzcKaSv0i4mBxySJ3S1J4Y0pc2yO2iHFpVM82FoGjIXPW5CGCIfcpTajIUkgLGNMPmo983oNf8mA=
+  - secure: k/ixqHOc4B2duyMx+OY6swTpy67quNCEXUnQK7i4AUJ0S5FrT0t0zbvDVxQblxm1EsdcrMTzpdINK3NpVhy20TYqQdSpE82aJ4QnFdZcqG6miU6YImlav2jKrHFwgSaOzVn9uW9XRnkgv0IxXrjYFwhzwnCQ5xN5qugYtD1jC8IoW9/y0LWJ8Kqq6YDG0O60pWYWL/c+JyjT/GZYh7dPiMN7nH2S/RXjJ9xmBRyfVHBuFX4BB4bOhwlrCSNef2e0Iur92IcmD5BrZQX+V8uTXJeSnEvfgobSxIlGDOF0GsCn34PgkMYqMgsV7DP8tmaseFLVF7wAZu59tZh1Mevc63iUVXUO72Z56UpqXoKw/mWoPtUdWY4dlJWeLAr+ueR3bTfHH4L+goX9/6fV0+dU/pq2pjM632FvbqZ/HoRqG1tXD/vJCYsXZDSjfrEYxyivxSVLA1H3YeEE2DDCNLlWz/OxGg7QRjrUzvJarwvdGA0roE0KQEthyXOuJYhOAxLMl9Nyujj1UovUszMFmSAzZtzylYq00Hf9xHTCDqqw5Fnk/nGGQtykNOKWuRl32UtygEKDvQt3hd97E5oPGk+1AznCvOztgaGup8aKhxQL7ykDLq/h3jhuDz34QaFasQMOIShpBM7gxVU/1r+151csN+No8iumvUsNw2RpShOpqKw=
+script:
+- npm install -g bower
+- bower install
+- gem install bundler
+- bundle exec jekyll build
+after_success:
+- echo set ftp:ssl-force on > ~/.lftprc
+- echo set ftp:ssl-protect-data on >> ~/.lftprc
+- echo set ssl:verify-certificate no >> ~/.lftprc
+- lftp -u "$USERNAME,$PASSWORD" "$SERVER" -e "mirror --delete --delete-first --verbose
+  -R _site/ .; bye"
