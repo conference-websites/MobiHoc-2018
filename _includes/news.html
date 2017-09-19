@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <!-- Extra panel -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title panel-title-style">
+          <i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; <b>Latest News</b>
+        </div>
+      </div>
+      <div class="panel-body">
+        <table class="table table-hover">
+          {% for item in site.data.news %}
+            <tr>
+              <td class="col-sm-4"><b>{{ item.date }}</b></td>
+              <td class="col-sm-8">{{ item.news }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+
+        {% comment %}
+        <li class="newslibtn ui-btn ui-li" data-theme="a" onclick="showall();">
+        <div><a>Older News</a><span class="ui-icon ui-btn-icon-right ui-icon-plus ui-icon-shadow">&nbsp;</span></div>
+        </li>
+        {% endcomment %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<!-- Extra panel -->
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title panel-title-style">
+          <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; <b>Important Dates</b>
+        </div>
+      </div>
+      <div class="panel-body">
+        <table class="table table-hover">
+          {% for itemKeyValue in site.data.dates %}
+            <tr>
+              {% assign item = itemKeyValue[1] %}
+              {% if include.track == null and item.important == true %}{% assign included = true %}{% elsif include.track != null and item.track == include.track %}{% assign included = true %}{% else %}{% assign included = false %}{% endif %}
+              {% if included %}
+                <td class="col-sm-4"><b>{{ item.date }}</b></td>
+                <td class="col-sm-8">{% if include.track == null %}{{ site.data.tracks[item.track].title }} {{ item.info }}{% else %}{{ item.info }}{% endif %}</td>
+              {% endif %}
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,116 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-registration:
+  track: main
+  info: Paper Registration Deadline (Long and Short) （HARD DEADLINE)
+  date: TBD
+  important: true
+main-submission:
+  track: main
+  info: Paper Submission Deadline (Long and Short) （HARD DEADLINE)
+  date: TBD
+  important: true
+main-notification:
+  track: main
+  info: Acceptance Notification
+  date: TBD
+  important: true
+# main-due:
+#   track: main
+#   info: Camera Ready Due
+#   date: August 21, 2017
+#   important: true
+
+# tutorials-proposals:
+#   track: tutorials
+#   info: Proposals deadline
+#   date: July 16, 2017
+#   important: true
+# tutorials-notification:
+#   track: tutorials
+#   info: Notification of Acceptance
+#   date: July 24, 2017
+
+# workshops-proposals:
+#   track: workshops
+#   info: Proposals deadline
+#   date: TBD
+#   important: true
+# workshops-notification:
+#   track: workshops
+#   info: Announcement of workshops selected
+#   date: TBD
+# workshops-papers-due:
+#   track: workshops
+#   info: Workshop Call for Papers due
+#   date: TBD
+
+# posters-submission:
+#   track: posters
+#   info: Submissions deadline
+#   date: <del>July 9, 2017 12am EDT</del><br/> July 23, 2017 11:59pm EDT
+# posters-notification:
+#   track: posters
+#   info: Acceptance Notification
+#   date: <del>July 31, 2017</del><br/> August 10, 2017
+# posters-due:
+#   track: posters
+#   info: Camera Ready Due
+#   date: August 21, 2017
+
+# travel-submission:
+#   track: travel
+#   info: Travel Grant Application Submission Deadline
+#   date: August 16, 2017 (23:59 CET)
+# travel-notification:
+#   track: travel
+#   info: Travel Grant Award Notification
+#   date: August 23, 2017 (23:59 CET)
+# travel-due:
+#   track: travel
+#   info: Deadline to Accept/Decline Travel Grant Award
+#   date: August 30, 2017
+
+# conference:
+#   track: main
+#   info: Conference
+#   date: September 26-28, 2017
+#   important: true
+
+# ## Workshop planning dates
+# workshops-planning-submission:
+#   track: workshops-planning
+#   date:  Before March 25, 2017
+#   info:  Paper submissions deadline
+# workshops-planning-notification:
+#   track: workshops-planning
+#   date:  Before end of April, 2017
+#   info:  Paper acceptance notification
+# workshops-planning-due:
+#   track: workshops-planning
+#   date:  Before end of May, 2017
+#   info:  Camera ready due
+# workshops-planning-program:
+#   track: workshops-planning
+#   date:  Before mid-June, 2017
+#   info:  Program available online
+# workshops-planning-org:
+#   track: workshops-planning
+#   date:  Before mid-June, 2017
+#   info:  List of organization details
+
+# ## Industrial demos
+# industrial-demos-submission:
+#   track: industrial-demos
+#   date:  TBD
+#   info:  Submission Deadline
+# industrial-demos-notification:
+#   track: industrial-demos
+#   date:  TBD
+#   info:  Acceptance Notification
