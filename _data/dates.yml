@@ -8,18 +8,18 @@
 
 main-registration:
   track: main
-  info: Paper Registration Deadline (Long and Short) （HARD DEADLINE)
-  date: TBD
+  info: Paper Registration Deadline (11:59pm PST)
+  date: December 15, 2017
   important: true
 main-submission:
   track: main
-  info: Paper Submission Deadline (Long and Short) （HARD DEADLINE)
-  date: TBD
+  info: Paper Submission Deadline (11:59pm PST)
+  date: December 22, 2017
   important: true
 main-notification:
   track: main
   info: Acceptance Notification
-  date: TBD
+  date: March 16, 2018
   important: true
 # main-due:
 #   track: main
@@ -77,11 +77,11 @@ main-notification:
 #   info: Deadline to Accept/Decline Travel Grant Award
 #   date: August 30, 2017
 
-# conference:
-#   track: main
-#   info: Conference
-#   date: September 26-28, 2017
-#   important: true
+conference:
+  track: main
+  info: Conference
+  date: June 26-29, 2018
+  important: true
 
 # ## Workshop planning dates
 # workshops-planning-submission:

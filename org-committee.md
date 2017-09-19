@@ -36,11 +36,11 @@ committees:
         affiliation: University Pierre et Marie Curie/LIP6, Paris, France
         homepage:    https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau
 
-    - role: Publication Chair
+    - role: Submission and Publication Chair
       people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Xiaowen Gong
+        affiliation: Auburn University
+        homepage:    http://www.auburn.edu/~xzg0017/
 
     - role: Publicity Chairs
       people:
@@ -126,5 +126,10 @@ committees:
 
 {% include committees.html committees=page.committees %}
 
-<!-- <br/>
-     <a class="button" data-role="button" href="mailto:generalchairs17@sigcomm.org">Contact General Chairs</a> -->
+<br/>
+
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="mailto:gerla@cs.ucla.edu,suhas@ee.ucla.edu" class="btn btn-primary btn-block" role="button">Contact General Chairs</a>
+  </div>
+</div>
