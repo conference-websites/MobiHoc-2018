@@ -28,9 +28,13 @@ committees:
 
     - role: Local Arrangements Chairs
       people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        SimLin Lau
+        affiliation: University of California, Los Angeles
+        homepage:    http://www.cee.ucla.edu/profile-lau/
+
+      - name:        Giovanni Pau
+        affiliation: University Pierre et Marie Curie/LIP6, Paris, France
+        homepage:    https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau
 
     - role: Publication Chair
       people:
@@ -64,11 +68,11 @@ committees:
         affiliation: 
         homepage:    
 
-    - role: Treasurer
+    - role: Finance Chair
       people:
-      - name:        Songwu Lu
+      - name:        Peter Reiher
         affiliation: University of California, Los Angeles
-        homepage:    http://web.cs.ucla.edu/~slu/
+        homepage:    https://lasr.cs.ucla.edu/reiher/
 
     - role: Workshop Chairs
       people:
@@ -100,11 +104,11 @@ committees:
         affiliation: 
         homepage:
 
-    - role: Sponsorship Chair
+    - role: Corporate Sponsorship Chair
       people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Giovanni Pau
+        affiliation: University Pierre et Marie Curie/LIP6, Paris, France
+        homepage:    https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau
 
     - role: Web Chairs
       people:
