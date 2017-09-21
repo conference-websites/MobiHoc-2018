@@ -4,6 +4,9 @@
 - name: Supporters
   url: /supporters.html
   icon: fa-handshake-o
+- name: "<b>>> Call for Papers <<</b>"
+  icon: fa-bullhorn
+  url: /cfp.html
 - name: Committees
   icon: fa-users
   submenu:

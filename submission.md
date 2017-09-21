@@ -17,10 +17,10 @@ If you are using LaTeX, you can make use of [a simplified ACM conference templat
 No changes to margins, spacing, or font sizes are allowed from those specified by the style files.
 Papers violating the formatting guidelines will be returned without review.
 
-All submissions will be reviewed using a **double-blind** review process.
-The identity of authors and referees will not be revealed to each other.
-To ensure a blind review, the authors' names and affiliations should not appear in the paper or the pdf file; bibliographic references should be made in a way that preserves author anonymity; acknowledgments and support information should not be included.
-In case there is a need to refer to a technical report that includes, for example, proofs, an anonymous link should be provided.
+All submissions will be reviewed using a **single-blind** review process.
+The identity of referees will not be revealed to authors, but author can keep their names on the submitted papers, on figures, bibliography, etc.
+
+#### Dual Submission Policy
 
 *Accepted papers will appear in the conference proceedings published by the ACM. Warning: It is ACM policy not to allow double submissions, where the same paper is submitted to more than one conference/journal concurrently. Any double submissions detected will be immediately rejected from all conferences/journals involved.*
 {: class="bs-callout bs-callout-danger" }
