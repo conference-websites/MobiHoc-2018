@@ -76,9 +76,9 @@ committees:
 
     - role: Workshop Chairs
       people:
-      - name:        TBD
-        affiliation:
-        homepage:
+      - name:        Songwu Lu
+        affiliation: University of California, Los Angeles
+        homepage:    http://web.cs.ucla.edu/~slu/
 
       - name:        TBD
         affiliation: 
