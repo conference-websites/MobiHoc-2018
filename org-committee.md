@@ -48,13 +48,9 @@ committees:
         affiliation: Florida International University
         homepage:    https://users.cs.fiu.edu/afanasyev/
 
-      - name:        TBD
-        affiliation: 
-        homepage:    
-
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Venkatesh Prasad
+        affiliation: Delft University of Technology, The Netherlands
+        homepage:    http://homepage.tudelft.nl/w5p50/
 
     - role: Registration Chair
       people:
