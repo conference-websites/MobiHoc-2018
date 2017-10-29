@@ -205,6 +205,8 @@ committees:
       - name: Roy Yates
         affiliation: Rutgers University, USA
         homepage:
+      - name: Rui Zhang
+        affiliation: University of Delaware
       - name: Sanjay Shakkottai
         affiliation: University of Texas at Austin
         homepage:
