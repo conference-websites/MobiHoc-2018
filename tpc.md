@@ -152,7 +152,7 @@ committees:
         affiliation: INRIA-ENS
         homepage:
       - name: Matthew Andrews
-        affiliation: Bell Labs, Alcatel-Lucent, USA
+        affiliation: Nokia Bell Labs, USA
         homepage:
       - name: Michael Neely
         affiliation: University of Southern California
@@ -211,7 +211,7 @@ committees:
         affiliation: University of Texas at Austin
         homepage:
       - name: Sem Borst
-        affiliation: Alcatel-Lucent, Bell Labs, USA and Eindhoven University of Technology, The Netherlands
+        affiliation: Nokia Bell Labs, USA and Eindhoven University of Technology, The Netherlands
         homepage:
       - name: Shaojie Tang
         affiliation: University of Texas at Dallas
