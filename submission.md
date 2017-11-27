@@ -7,8 +7,7 @@ group: Author Information
 
 # {{ page.title }}
 
-<!-- Papers should be submitted via [EDAS](http://edas.info/newPaper.php?c=21818). -->
-Submission website is not yet open.
+Papers should be submitted via [the HotCRP submissing website ( https://mobihoc18.hotcrp.com)]( https://mobihoc18.hotcrp.com).
 
 Papers should not exceed 10 pages (US letter size) double column including figures, tables, and references in standard ACM format.
 Papers must be submitted electronically in printable PDF form.
