@@ -52,6 +52,10 @@ committees:
         affiliation: Delft University of Technology, The Netherlands
         homepage:    http://homepage.tudelft.nl/w5p50/
 
+      - name:        Vijay S. Rao
+        affiliation: Delft University of Technology, The Netherlands
+        homepage:    http://www.st.ewi.tudelft.nl/~vijay/vijay.html
+
     - role: Registration Chair
       people:
       - name:        TBD
