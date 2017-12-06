@@ -14,6 +14,10 @@ It will bring together researchers and practitioners from a broad spectrum of ne
 MobiHoc 2018 will feature a highly selective technical program, multiple distinguished keynote addresses, and an exciting panel.
 In addition, it includes workshops that are focused on areas of emerging interest.
 
+### [>> Submission Instructions <<]({{ site.baseurl }}/submission.html)
+{: style="text-align: center; margin-bottom: 1em;" }
+
+
 {% include dates.html %}
 
 ## With Generous Support From
