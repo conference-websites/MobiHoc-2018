@@ -14,7 +14,7 @@ main-registration:
 main-submission:
   track: main
   info: Paper Submission Deadline (11:59pm PST)
-  date: December 22, 2017
+  date: December 22, 2017 <b>(firm, no extension)</b>
   important: true
 main-notification:
   track: main
