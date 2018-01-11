@@ -56,6 +56,10 @@ committees:
         affiliation: Delft University of Technology, The Netherlands
         homepage:    http://www.st.ewi.tudelft.nl/~vijay/vijay.html
 
+      - name:        William Liu
+        affiliation: Auckland University of Technology, Auckland, New Zealand
+        homepage:    https://www.aut.ac.nz/profiles/william-liu
+
     - role: Registration Chair
       people:
       - name:        TBD
@@ -80,29 +84,23 @@ committees:
         affiliation: University of California, Los Angeles
         homepage:    http://web.cs.ucla.edu/~slu/
 
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Bhaskar Krishnamachari
+        affiliation: USC
+        homepage:    http://ceng.usc.edu/~bkrishna/
 
-    - role: Poster Chairs
+    - role: Poster and Demo Chairs
       people:
-      - name:        TBD
-        affiliation: 
+      - name:        Srinivas Shakkottai
+        affiliation: Texas A&M University
         homepage:    
 
-      - name:        TBD
-        affiliation: 
+      - name:        Parimal Parag
+        affiliation: Indian Institute of Science
         homepage:    
 
-    - role: Demo Chairs
-      people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
-
-      - name:        TBD
-        affiliation: 
-        homepage:
+      - name:        Venkatesh Prasad
+        affiliation: Delft University of Technology, The Netherlands
+        homepage:    http://homepage.tudelft.nl/w5p50/
 
     - role: Corporate Sponsorship Chair
       people:
