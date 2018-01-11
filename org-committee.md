@@ -80,20 +80,16 @@ committees:
 
     - role: Workshop Chairs
       people:
-      - name:        Songwu Lu
-        affiliation: University of California, Los Angeles
-        homepage:    http://web.cs.ucla.edu/~slu/
-
       - name:        Bhaskar Krishnamachari
         affiliation: USC
         homepage:    http://ceng.usc.edu/~bkrishna/
 
+      - name:        Songwu Lu
+        affiliation: University of California, Los Angeles
+        homepage:    http://web.cs.ucla.edu/~slu/
+
     - role: Poster and Demo Chairs
       people:
-      - name:        Srinivas Shakkottai
-        affiliation: Texas A&M University
-        homepage:    
-
       - name:        Parimal Parag
         affiliation: Indian Institute of Science
         homepage:    
@@ -101,6 +97,10 @@ committees:
       - name:        Venkatesh Prasad
         affiliation: Delft University of Technology, The Netherlands
         homepage:    http://homepage.tudelft.nl/w5p50/
+
+      - name:        Srinivas Shakkottai
+        affiliation: Texas A&M University
+        homepage:    
 
     - role: Corporate Sponsorship Chair
       people:
@@ -110,13 +110,13 @@ committees:
 
     - role: Web Chairs
       people:
-      - name:        Seungbae Kim
-        affiliation: California State University, Northridge
-        homepage:    https://sites.google.com/site/sbkimcv/
-
       - name:        Alex Afanasyev
         affiliation: Florida International University
         homepage:    https://users.cs.fiu.edu/afanasyev/
+
+      - name:        Seungbae Kim
+        affiliation: California State University, Northridge
+        homepage:    https://sites.google.com/site/sbkimcv/
 
 ---
 
