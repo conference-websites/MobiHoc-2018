@@ -9,13 +9,20 @@
 main-registration:
   track: main
   info: Paper Registration Deadline (11:59pm PST)
-  date: December 15, 2017
+  date: <del>December 15, 2017</del>
   important: true
 main-submission:
   track: main
   info: Paper Submission Deadline (11:59pm PST)
-  date: December 22, 2017 <b>(firm, no extension)</b>
+  date: <del>December 22, 2017 <b>(firm, no extension)</b></del>
   important: true
+
+cfw-1:
+  track: cfw
+  info: Workshop Proposals due
+  date: January 24, 2018
+  important: true
+
 main-notification:
   track: main
   info: Acceptance Notification
@@ -26,6 +33,21 @@ main-notification:
 #   info: Camera Ready Due
 #   date: August 21, 2017
 #   important: true
+
+cfw-2:
+  track: cfw
+  info: Notification of Workshop Proposal acceptance
+  date: January 31, 2018
+
+cfw-3:
+  track: cfw
+  info: Workshop paper submissions deadline (suggested)
+  date: April 15, 2018
+
+cfw-4:
+  track: cfw
+  info: Workshop Paper Decisions (hard deadline)
+  date: April 15, 2018
 
 # tutorials-proposals:
 #   track: tutorials

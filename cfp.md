@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Call for Papers
-group: "<b>>> Call for Papers <<</b>"
+group: "Calls"
 
 ---
 
