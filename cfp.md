@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Call for Papers
-group: "Calls"
+title: <del>Call for Papers</del>
+group: "Author Information"
 
 ---
 

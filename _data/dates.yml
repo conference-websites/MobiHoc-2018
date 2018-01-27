@@ -23,6 +23,39 @@ cfw-1:
   date: January 24, 2018
   important: true
 
+posters-1:
+  track: posters
+  date: March 2, 2018
+  info: Poster Submission Deadline
+  important: true
+
+posters-2:
+  track: posters
+  date: April 6, 2018
+  info: Notification of Acceptance
+
+posters-3:
+  track: posters
+  date: June 26-29, 2018
+  info: Conference
+
+demos-1:
+  track: demos
+  date: March 2, 2018
+  info: Poster Submission Deadline
+  important: true
+
+demos-2:
+  track: demos
+  date: April 6, 2018
+  info: Notification of Acceptance
+
+demos-3:
+  track: demos
+  date: June 26-29, 2018
+  info: Conference
+
+
 main-notification:
   track: main
   info: Acceptance Notification

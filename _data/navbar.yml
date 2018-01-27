@@ -4,9 +4,9 @@
 - name: Supporters
   url: /supporters.html
   icon: fa-handshake-o
-- name: "<b>>> Call for Workshops <<</b>"
-  icon: fa-bullhorn
-  url: /cfw.html
+# - name: "<b>>> Call for Workshops <<</b>"
+#   icon: fa-bullhorn
+#   url: /cfw.html
 - name: Committees
   icon: fa-users
   submenu:
@@ -57,10 +57,10 @@
       url: /cfp.html
     - name: Call for Workshops
       url: /cfw.html
-    # - name: Call for Posters
-    #   url: /cf-posters.html
-    # - name: Call for Demos
-    #   url: /cf-posters.html
+    - name: Call for Posters
+      url: /cf-posters.html
+    - name: Call for Demos
+      url: /cf-demos.html
     - name: Author Registration Policy
       url: /policy-author-registration.html
     - name: No-Show Policy

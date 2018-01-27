@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Call for Workshops
-group: "<b>>> Call for Workshops <<</b>"
+group: "Author Information"
 
 ---
 
