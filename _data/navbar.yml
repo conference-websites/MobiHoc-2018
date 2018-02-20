@@ -43,9 +43,21 @@
 #       url: /social-events.html
 #     - name: Accepted Papers
 #       url: /accepted-papers.html
-# - name: Workshops
-#   icon: fa-bullhorn
-#   submenu:
+- name: Workshops
+  icon: fa-bullhorn
+  submenu:
+    - name: MobileHealth
+      url: /workshop-mobile-health.html
+    - name: Frontiers of Networks
+      url: /workshop-frontiers.html
+    - name: SmartObjects
+      url: /workshop-smartobjects.html
+    - name: Distributed Information Processing in Wireless Networks
+      url: /workshop-dipon.html
+    - name: Mobile IoT Sensing, Security, and Privacy
+      url: /workshop-iot-sensing.html
+    - name: SmartCitySecurity
+      url: /workshop-smart-city-security.html
 - name: Author Information
   icon: fa-bullhorn
   submenu:
