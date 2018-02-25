@@ -14,9 +14,9 @@
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
     <meta property="og:site_name" content="{{ site.title }}"/>
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{{ site.url }}{% asset_path banner.jpg %}" />
+    <meta property="og:image" content="{{ site.url }}{% asset banner.jpg @path %}" />
 
-    {% css main %}
+    {% asset main.css %}
   </head>
 
   <body>
@@ -44,7 +44,7 @@
         <!-- JUMBOTRON -->
         <div class="row">
           <header id="banner" class="col-xs-12 col-sm-12 col-lg-12">
-            {% img banner.jpg class:'img-rounded img-responsive' alt:'{{ site.logo_alt }}' %}
+            {% asset banner.jpg class:'img-rounded img-responsive' alt:'{{ site.logo_alt }}' %}
           </header>
         </div>
 
@@ -75,6 +75,6 @@
       </a>
     </span>
 
-    {% js main %}
+    {% asset main.js %}
   </body>
 </html>

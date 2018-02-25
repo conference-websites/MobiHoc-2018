@@ -24,10 +24,10 @@ In addition, it includes workshops that are focused on areas of emerging interes
 
 <div class="sponsors">
   <div class="sponsor">
-      <a href="https://www.acm.org">{% img logos/acm.png %}</a>
+      <a href="https://www.acm.org">{% asset logos/acm.png %}</a>
   </div>
   <div class="sponsor">
-      <a href="https://www.sigmobile.org">{% img logos/sigmobile.gif %}</a>
+      <a href="https://www.sigmobile.org">{% asset logos/sigmobile.gif %}</a>
   </div>
 <!--
   <div class="sponsor">

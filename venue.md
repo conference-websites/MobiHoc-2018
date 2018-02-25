@@ -7,7 +7,7 @@ group: Attendee Information
 
 # {{ page.title }}
 
-{% img ucla.jpg align:right width:300 alt:'UCLA, Royce Hall' style:'margin-left\: 10px' %}
+{% asset ucla.jpg align:right width:300 alt:'UCLA, Royce Hall' style:'margin-left\: 10px' %}
 MobiHoc 2018 will take place on University of California, Los Angeles campus in [UCLA Meyer and Renee Luskin Conference Center](http://luskinconferencecenter.ucla.edu/) located in the heart of the campus.
 
 You can download UCLA [the offline campus map](http://maps.ucla.edu/downloads/pdf/UCLA_Campus_Colored_Map.pdf) or access [the interactive map](http://maps.ucla.edu/campus/).

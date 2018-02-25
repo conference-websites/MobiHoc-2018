@@ -2,7 +2,7 @@ language: ruby
 sudo: false
 dist: trusty
 rvm:
-- 2.2
+  - 2.5.0
 branches:
   only:
   - master

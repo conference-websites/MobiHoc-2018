@@ -32,7 +32,8 @@ google:
 #     - "1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE" # main
 
 assets:
-  cache: .sass-cache
+  caching:
+    path: .sass-cache/assets
   features:
     automatic_img_size: false
 
@@ -42,6 +43,7 @@ assets:
     - _assets/fonts
     - _assets/js
     - _assets/bower
+    - _assets/calls
 
   autoprefixer:
     browsers:
