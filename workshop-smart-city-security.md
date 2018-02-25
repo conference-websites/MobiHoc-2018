@@ -22,15 +22,15 @@ committees:
          email:       danda.rawat@howard.edu
 
        - name:        Min Song
-         affiliation: University of Central Florida, USA
+         affiliation: Michigan Tech, USA
          email:       MinS@mtu.edu
 
        - name:        Syed Hassan Ahmed
-         affiliation: UPV, Valencia, Spain
+         affiliation: University of Central Florida, USA
          email:       sh.ahmed@ieee.org
 
        - name:        Jaime Lloret Mauri
-         affiliation: Michigan Tech, USA
+         affiliation: UPV, Valencia, Spain
          email:       jlloret@dcom.upv.es
 
     - role: Technical Program Committee
