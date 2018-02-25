@@ -18,19 +18,19 @@ committees:
     - role: Workshop Co-Chairs
       people:
        - name:        Danda B. Rawat
-         affiliation:
+         affiliation: Howard University, USA
          email:       danda.rawat@howard.edu
 
        - name:        Min Song
-         affiliation:
+         affiliation: University of Central Florida, USA
          email:       MinS@mtu.edu
 
        - name:        Syed Hassan Ahmed
-         affiliation:
+         affiliation: UPV, Valencia, Spain
          email:       sh.ahmed@ieee.org
 
        - name:        Jaime Lloret Mauri
-         affiliation:
+         affiliation: Michigan Tech, USA
          email:       jlloret@dcom.upv.es
 
     - role: Technical Program Committee
