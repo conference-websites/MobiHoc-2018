@@ -6,11 +6,11 @@ group: Workshops
 
 dates:
     - info: Submission deadline
-      date: TBD
+      date: March 20, 2018
     - info: Acceptance notification
-      date: TBD
+      date: April 22, 2018
     - info: Camera ready deadline
-      date: TBD
+      date: May 6, 2018
 
 committees:
     - role: Workshop Co-Chairs
@@ -28,22 +28,16 @@ committees:
          affiliation:
          email:       annamaria.vegni@uniroma3.it
 
-    - role: Technical Program Committee
-      people:
-       - name: TBD
-         affiliation: TBD
-
 ---
 
 ## 4th ACM MobiHoc Workshop on Experiences with the Design and Implementation of Smart Objects
 
-{% comment %}
+<hr/> 
 
-<!-- ### Workshop Program -->
+### [Workshop website, call for papers, submission instructions](http://www.grc.upv.es/smartobjects2018/)
 
-<!-- {% include program-online.html type="dipon" %} -->
-
-{% endcomment %}
+<hr/> 
+  
 
 <!-- ### Call For Papers -->
 
@@ -59,6 +53,6 @@ committees:
   </div>
 </div>
 
-### Committees
+<!-- ### Committees -->
 
 {% include committees.html committees=page.committees %}
