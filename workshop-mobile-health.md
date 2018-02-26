@@ -104,6 +104,9 @@ Papers should be submitted via [https://mobilehealth18.hotcrp.com/](https://mobi
 Papers should not exceed 10 pages (US letter size) double column including figures, tables, and references in standard ACM format. Papers must be submitted electronically in printable PDF form. Templates for the standard ACM format can be found at [this link](https://www.acm.org/publications/proceedings-template). If you are using LaTeX, you can make use of [a simplified ACM conference template](https://github.com/conference-websites/acmart-sigproc-template). No changes to margins, spacing, or font sizes are allowed from those specified by the style files. Papers violating the formatting guidelines will be returned without review.
 All submissions will be reviewed using a single-blind review process. The identity of referees will not be revealed to authors, but author can keep their names on the submitted papers, on figures, bibliography, etc.
 
+### [>> PDF Version of this call <<]({% asset MobiHoc-2018-Workshop-MobileHealth-2018.pdf @path %})
+{: style="text-align: center; margin-bottom: 1em;" }
+
 {% include dates2.html dates=page.dates %}
 
 <div class="row">
