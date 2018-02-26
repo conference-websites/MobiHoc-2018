@@ -81,7 +81,7 @@ We expect this workshop to be one of the key steps towards gathering researchers
 
 For paper submission to ACM SmartCitySecurity 2018, please visit [https://smartcitysecurity18.hotcrp.com](https://smartcitysecurity18.hotcrp.com).
 
-### [>> PDF Version of this call <<]({% asset MobiHoc-2018-Worklshop-SmartCitySecurity-2018.pdf @path %})
+### [>> PDF Version of this call <<]({% asset MobiHoc-2018-Workshop-SmartCitySecurity-2018.pdf @path %})
 {: style="text-align: center; margin-bottom: 1em;" }
 
 <!-- <hr/> -->
