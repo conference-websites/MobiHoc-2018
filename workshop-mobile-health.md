@@ -31,28 +31,119 @@ committees:
        - name: Zilong Ye
          affiliation: California State University, Los Angeles, USA
 
+    - role: Publicity Co-Chairs 
+      people:
+       - name: Youcef Begriche
+         affiliation: Telecom Paris-Tech, France
+         
+       - name: Said Yahiaoui
+         affiliation: Cerist Research Center, Algeria
+         
     - role: Steering Committee
       people:
        - name:        Saadi Boudjit
          affiliation: University of Paris 13, France
-         email:       boudjit@univ-paris13.fr
 
        - name:        Philippe Jacquet
          affiliation: Bell Labs Alcatel-Lucent, France
-         email:       
 
        - name:        Anis Laouiti
-         affiliation:
-         email:       anis.laouiti@telecom-sudparis.eu
+         affiliation: Telecom Sud Paris, France
 
        - name:        Paul Muhlethaler
          affiliation: Telecom Sud Paris, France
-         email:       
 
        - name:        Majid Sarrafzadeh
          affiliation: UCLA Wireless Health Institute, USA
-         email:       
 
+    - role: Technical Program Committee
+      people:
+       - name: Marwen Abdennebi
+         affiliation: University of Paris 13, France
+
+       - name: Sasan Adibi
+         affiliation: Royal Melbourne Institute of Technology, Australia
+
+       - name: Saadi Boudjit,
+         affiliation: University of Paris 13, France
+
+       - name: Syin Chan
+         affiliation: Nanyang Technological University, Singapore
+
+       - name: Zainul Charbiwala
+         affiliation: IBM Research, India
+
+       - name: Mooi Choo Chuah
+         affiliation: Lehigh University, USA
+
+       - name: Avik Ghose Tata Consultancy Services
+         affiliation: India
+
+       - name: Roozbeh Jafari
+         affiliation: University of Texas at Dallas, USA
+
+       - name: Anis Laouiti
+         affiliation: Telecom SudParis, France
+
+       - name: Gustavo Marfia
+         affiliation: University of Bologna, Italy
+
+       - name: Hassine Moungla
+         affiliation: Paris Descartes University, France
+
+       - name: Ertan Onur
+         affiliation: Delft University of Technology, The Netherlands
+
+       - name: Amir Qayyum
+         affiliation: CUST, Islamabad, Pakistan
+
+       - name: Kevin Stanley
+         affiliation: University of Saskatchewan, Canada
+
+       - name: Sim-Hui Tee
+         affiliation: Multimedia University, Malaysia
+
+       - name: Apinun Tunpsan
+         affiliation: Asian Institute of Technology, Thailand
+
+       - name: Egon L. Van Den Broek
+         affiliation: University of Twente, The Netherlands
+
+       - name: Giovanni Pau
+         affiliation: UCLA, USA
+
+       - name: Emmanuel Baccelli
+         affiliation: INRIA, Paris, France
+
+       - name: Farid Nait-Abdesselam
+         affiliation: Paris Descartes University, France
+
+       - name: Kashif Kifayat
+         affiliation: Liverpool John Moores University, UK
+
+       - name: Zonghua Zhang
+         affiliation: IMT Lille Douai, Institut Mines-Telecom, France
+
+       - name: Imane Horiya Brahmi
+         affiliation: Tyndall National Institute, Ireland
+
+       - name: Houbing Song
+         affiliation: Embry Riddle Aeronautical University, Daytona Beach, USA
+
+       - name: Safdar Hussain Bouk
+         affiliation: DGIST, South Korea
+
+       - name: Dongkyun Kim
+         affiliation: Kyungpook National University, South Korea
+
+       - name: Ali Kashif Bashir
+         affiliation: University of the Faroe Islands, Denmark
+
+       - name: Ejaz Ahmed
+         affiliation: NIST, USA
+
+       - name: Yassine Hadjadj Aoul
+         affiliation: IRISA, France
 ---
 
 ## 8th ACM MobiHoc 2018 Workshop on Pervasive Wireless Healthcare Workshop (MobileHealth 2018)
