@@ -1,3 +1,4 @@
+{% capture now %}{{ site.time | date: '%Y-%m-%d' }}{% endcapture %}
 <!-- Extra panel -->
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">
@@ -11,7 +12,8 @@
         <table class="table table-hover">
           {% for item in include.dates %}
             <tr>
-              <td class="col-sm-4"><b>{{ item.date }}</b></td>
+              {% capture date %}{{ item.date | date: '%Y-%m-%d' }}{% endcapture %}
+              <td class="col-sm-4"><b>{% if now > date %}<del>{% endif %}{{ item.date }}{% if now > date %}</del>{% endif %}</b></td>
               <td class="col-sm-8">{{ item.info }}</td>
             </tr>
           {% endfor %}

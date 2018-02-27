@@ -36,7 +36,7 @@ posters-2:
 
 posters-3:
   track: posters
-  date: June 26-29, 2018
+  date: June 26, 2018 - June 29, 2018
   info: Conference
 
 demos-1:
@@ -52,7 +52,7 @@ demos-2:
 
 demos-3:
   track: demos
-  date: June 26-29, 2018
+  date: June 26, 2018 - June 29, 2018
   info: Conference
 
 
@@ -135,7 +135,7 @@ cfw-4:
 conference:
   track: main
   info: Conference
-  date: June 26-29, 2018
+  date: June 26, 2018 - June 29, 2018
   important: true
 
 # ## Workshop planning dates

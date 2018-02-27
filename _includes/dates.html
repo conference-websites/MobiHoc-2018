@@ -1,3 +1,4 @@
+{% capture now %}{{ site.time | date: '%Y-%m-%d' }}{% endcapture %}
 <!-- Extra panel -->
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">
@@ -14,7 +15,8 @@
               {% assign item = itemKeyValue[1] %}
               {% if include.track == null and item.important == true %}{% assign included = true %}{% elsif include.track != null and item.track == include.track %}{% assign included = true %}{% else %}{% assign included = false %}{% endif %}
               {% if included %}
-                <td class="col-sm-4"><b>{{ item.date }}</b></td>
+                {% capture date %}{{ item.date | date: '%Y-%m-%d' }}{% endcapture %}
+                <td class="col-sm-4"><b>{% if now > date %}<del>{% endif %}{{ item.date }}{% if now > date %}</del>{% endif %}</b></td>
                 <td class="col-sm-8">{% if include.track == null %}{{ site.data.tracks[item.track].title }} {{ item.info }}{% else %}{{ item.info }}{% endif %}</td>
               {% endif %}
             </tr>
