@@ -67,7 +67,7 @@ Topics of interest include (but are not limited to):
 
 We solicit regular papers that present novel and unpublished research results. Workshop papers should not exceed 6 pages in standard double column ACM conference format, including figures, tables, references, and appendix. As per ACM policy, papers submitted to other conferences or journals will not be considered for publication. Accepted papers will appear in the conference proceedings published by the ACM.
 
-For paper submission to ACM MobiHoc 2018 Workshop on Distributed Information Processing in Wireless Networks, please visit [TBD](TBD).
+For paper submission to ACM MobiHoc 2018 Workshop on Distributed Information Processing in Wireless Networks, please visit [https://dipon18.hotcrp.com/](https://dipon18.hotcrp.com/).
 
 ### [>> PDF Version of this call <<]({% asset MobiHoc-2018-Workshop-DIPON-2018.pdf @path %})
 {: style="text-align: center; margin-bottom: 1em;" }
