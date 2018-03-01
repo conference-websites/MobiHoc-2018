@@ -6,20 +6,20 @@ group: Workshops
 
 dates:
     - info: Submission deadline
-      date: TBD
+      date: April 1, 2018
     - info: Acceptance notification
-      date: TBD
+      date: April 30, 2018
     - info: Camera ready deadline
-      date: TBD
+      date: May 7, 2018
 
 committees:
     - role: Workshop Co-Chairs
       people:
        - name:        Mi Zhang
-         affiliation:
+         affiliation: Michigan State University
          email:       mizhang@egr.msu.edu
        - name:        Guan-Hua (Scott) Tu
-         affiliation:
+         affiliation: Michigan State University
          email:       ghtu@msu.edu
 
     - role: Technical Program Committee
@@ -39,11 +39,38 @@ committees:
 
 {% endcomment %}
 
-<!-- ### Call For Papers -->
+### Call For Papers
 
-<!-- TBD -->
+Today's mobile Internet of Things devices (i.e., wireless-connected IoT devices) such as Amazon Alexa, WiFi smart bulbs, smart meters, and wearable devices are normally equipped with on-devices sensors. Although these sensors equip mobile IoT devices with the capability to sense users and their surrounding environment to provide context-aware services, they may also intrude users' privacy and bring up many security concerns. The goal of this workshop is to provide a forum to bring together researchers from both academia and industry to discuss the sensing, security and privacy issues and corresponding solutions related to the existing and emerging mobile internet of things devices and infrastructure.
 
-<!-- #### Submission Instructions -->
+The workshop comes at a critical time juncture where mobile IoT devices are proliferating commercially. The off-the-shelf availability of mobile IoT devices today has significantly improved, and those devices have been widely adopted in a broad spectrum of applications such as automation and control, energy monitoring, healthcare - to name a few. We hope that this workshop will serve as a catalyst for exploring novel sensing applications enabled by mobile IoT devices as well as investigating techniques that enhance the security of mobile IoT devices and protect users' privacy.
+
+The focus areas include, but not limited to:
+
+- Novel mobile IoT sensing systems and applications
+- Cloud/Edge/Fog-based infrastructure for mobile IoT sensing
+- Privacy-preserving mobile IoT sensing
+- Key distribution and management
+- Physical security and hardware/software security
+- Authentication, authorization, audit, and access control for mobile IoT
+- Lightweight security for mobile IoT
+- Security framework of mobile IoT
+- Security for 5G IoT
+- Security for cellular IoT (2G/3G/4G, NB-IoT, Cate.M1, Cate.-1)
+- Security for WiFi IoT (2.4GHz, 5GHz, 60GHz, etc)
+- Security for Z-Wave, Bluetooth, LoRa, SigFox, 6LowPAN, NFC, Zigbee IoT
+
+
+### Submission Instructions
+
+Papers should be submitted via [https://mobileiotssp18.hotcrp.com/](https://mobileiotssp18.hotcrp.com/).
+
+The papers should not exceed 6 pages (US letter size) double column including figures, tables, and references in standard ACM format.
+Templates for the standard ACM format can be found at: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template).
+Submission must be in PDF format.
+All submissions will be reviewed using a single-blind review process.
+
+
 
 {% include dates2.html dates=page.dates %}
 
