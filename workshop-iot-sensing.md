@@ -24,8 +24,44 @@ committees:
 
     - role: Technical Program Committee
       people:
-       - name: TBD
-         affiliation: TBD
+       - name:        Muhammad Shahzad
+         affiliation: North Carolina State University
+
+       - name:        Ashwin Ashok
+         affiliation: Georgia State University
+
+       - name:        Aziz Mohaisen
+         affiliation: University of Central Florida
+
+       - name:        Yuan Tian
+         affiliation: University of Virginia
+
+       - name:        Feng Qian
+         affiliation: Indiana University Bloomington
+
+       - name:        Sunghoon Ivan Lee
+         affiliation: UMass Amherst
+
+       - name:        Fengwei Zhang
+         affiliation: Wayne State University
+
+       - name:        Yuanjie Li
+         affiliation: University of California, Los Angeles
+
+       - name:        Shin-Ming Cheng
+         affiliation: National Taiwan University of Science and Technology
+
+       - name:        Chi-Yu Li
+         affiliation: National Chiao Tung University
+
+       - name:        Kate Ching-Ju Lin
+         affiliation: National Chiao Tung University
+
+       - name:        Yan Huang
+         affiliation: Indiana University Bloomington
+
+       - name:        Zhiyun Qian
+         affiliation: University of California, Riverside
 
 ---
 
