@@ -60,9 +60,6 @@ committees:
        - name:        Yan Huang
          affiliation: Indiana University Bloomington
 
-       - name:        Zhiyun Qian
-         affiliation: University of California, Riverside
-
 ---
 
 ## 1st ACM MobiHoc Workshop on Mobile IoT Sensing, Security, and Privacy
