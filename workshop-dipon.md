@@ -25,20 +25,55 @@ committees:
 
     - role: Technical Program Committee
       people:
-       - name: TBD
-         affiliation: TBD
+       - name:        Abhishek Sinha
+         affiliation: Qualcomm Inc.
+
+       - name:        Alec Koppel
+         affiliation: Army Research Labs
+
+       - name:        Hao Chen
+         affiliation: Boise State University
+
+       - name:        Bhavya Kailkhura
+         affiliation: Lawrence Livermore National Laboratory
+
+       - name:        Sijia Liu
+         affiliation: IBM Research
 
 ---
 
 ## ACM MobiHoc Workshop on Distributed Information Processing in Wireless Networks
 
-{% comment %}
+### Workshop Program Highlights
 
-<!-- ### Workshop Program -->
+#### Keynote
+
+- [Venugopal V. Veeravalli (Electrical & Computer Engineering, University of Illinois at Urbana-Champaign)]((link: http://vvv.ece.illinois.edu/))
+
+**Quickest detection of dynamically evolving events in networks**
+
+_Biography_: Venugopal V. Veeravalli received the B.Tech. degree (Silver Medal Honors) from the Indian Institute of Technology, Bombay,
+India, in 1985, the M.S. degree from Carnegie Mellon University, Pittsburgh, PA, USA, in 1987, and the Ph.D. degree from the University of Illinois at Urbana-Champaign, Champaign, IL, USA, in 1992, all in electrical engineering. He joined the University of Illinois at Urbana-Champaign in 2000, where he is currently the Henry Magnuski Professor in the Department of Electrical
+and Computer Engineering, and where he is also affiliated with the Department of Statistics, the Coordinated Science Laboratory, and the Information Trust Institute. From 2003 to 2005, he was a Program Director for communications research at the U.S. National Science Foundation in Arlington, VA, USA. He has previously held academic positions at Harvard University, Rice University, 
+and Cornell University, and has been on sabbatical at MIT, IISc Bangalore, and Qualcomm, Inc. His research interests include statistical signal processing, machine learning, detection and estimation theory, information theory, and stochastic control, with applications to sensor networks, cyberphysical systems, and wireless communications. A recent emphasis of his research has been on signal processing and machine learning for data science applications. Prof. Veeravalli was a Distinguished Lecturer for the IEEE Signal Processing Society during 2010 and 2011. He has been on the Board of Governors of the IEEE Information Theory Society. He has been an Associate Editor for Detection and Estimation for the IEEE Transactions on Information Theory and for the IEEE Transactions on Wireless Communications. The awards he received for research and teaching are the IEEE Browder J. Thompson Best Paper Award, the National Science Foundation CAREER Award, and the Presidential Early Career Award for Scientists and Engineers, and the Wald Prize in Sequential Analysis.
+
+{% comment %}
 
 <!-- {% include program-online.html type="dipon" %} -->
 
 {% endcomment %}
+
+{% include dates2.html dates=page.dates %}
+
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="mailto:{% for person in page.committees[0].people %}{% if person.email and person.email != "" %}{% unless forloop.first %},{% endunless %}{{ person.email }}{% endif %}{% endfor %}?subject=[{{ page.short }}]" class="btn btn-primary btn-block" role="button">Contact Workshop Chairs</a>
+  </div>
+</div>
+
+### Committees
+
+{% include committees.html committees=page.committees %}
 
 ### Call For Papers
 
@@ -71,15 +106,3 @@ For paper submission to ACM MobiHoc 2018 Workshop on Distributed Information Pro
 
 ### [>> PDF Version of this call <<]({% asset MobiHoc-2018-Workshop-DIPON-2018.pdf @path %})
 {: style="text-align: center; margin-bottom: 1em;" }
-
-{% include dates2.html dates=page.dates %}
-
-<div class="row">
-  <div class="col-sm-6 col-sm-offset-3">
-    <a href="mailto:{% for person in page.committees[0].people %}{% if person.email and person.email != "" %}{% unless forloop.first %},{% endunless %}{{ person.email }}{% endif %}{% endfor %}?subject=[{{ page.short }}]" class="btn btn-primary btn-block" role="button">Contact Workshop Chairs</a>
-  </div>
-</div>
-
-### Committees
-
-{% include committees.html committees=page.committees %}
