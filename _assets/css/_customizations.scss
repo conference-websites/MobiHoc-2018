@@ -8,3 +8,28 @@
 .table > tbody > tr:first-child > td {
     border: none;
 }
+
+
+table.hotel th {
+    text-align:left;
+    vertical-align:top;
+    width: 25%;
+}
+
+table.hotel td {
+    width: 75%;
+    vertical-align:bottom;
+}
+
+table.hotel td ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+table.hotel tr {
+}
+
+table.hotel {
+    width: 100%;
+    padding-bottom:1em
+}

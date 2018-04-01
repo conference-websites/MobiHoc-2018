@@ -1,0 +1,83 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <a data-toggle="collapse" data-target="#{{ hotel.id }}" href="#{{ hotel.id }}">
+        {{ hotel.name }}
+        <span class="pull-right clickable {% unless include.expanded %}panel-collapsed{% endunless %}"><i class="glyphicon glyphicon-chevron-{% if include.expanded %}up{% else %}down{% endif %}"></i></span>
+      </a>
+    </h3>
+  </div>
+  <div id="{{ hotel.id }}" class="panel-body collapse {% if include.expanded %}in{% else %}out{% endif %}">
+    {% if hotel.image %}
+      {% asset "{{ hotel.image }}" alt="{{ hotel.name }}" width="150px" style="position: absolute; right: 30px" %}
+    {% endif %}
+    <p>{{ hotel.address }}<br/>
+      {% if hotel.url %}
+        <a target="_blank" href="{{ hotel.url }}">Hotel Website</a>
+      {% endif %}
+    </p>
+
+    <table class="hotel">
+      {% if hotel.distance %}
+      <tr>
+        <th>Distance to venue:</th>
+        <td>{{ hotel.distance }}</td>
+      </tr>
+      {% endif %}
+      {% if hotel.rating %}
+        <tr>
+          <th>Rating:</th>
+          <td>
+            {% assign stars = hotel.rating | times: 1 %}
+            {% for star in (1..5) %}
+              <i class="fa
+                        {% if stars >= 1 %}
+                        fa-star
+                        {% elsif stars > 0 %}
+                        fa-star-half-o
+                        {% else %}
+                        fa-star-o
+                        {% endif %}
+                        "></i>
+              {% assign stars = stars | minus: 1 %}
+            {% endfor %}
+          </td>
+          <!-- <td>{{ hotel.rating }}</td> -->
+        </tr>
+      {% endif %}
+      {% if hotel.reservation-info %}
+      <tr>
+        <th>Reservation:</th>
+        <td>{{ hotel.reservation-info }}</td>
+      </tr>
+      {% endif %}
+      <tr>
+        <th>Reservations by phone:</th>
+        <td>{{ hotel.phone }}</td>
+      </tr>
+      <tr>
+        <th>Amenities:</th>
+        <td><ul>{% for item in hotel.amenities %}<li>{{ item }}</li>{% endfor %}</ul></td>
+      </tr>
+      <tr>
+        <th>Rates:</th>
+        <td>{% for rate in hotel.rates %}{{ rate }}<br/>{% endfor %}</td>
+      </tr>
+    </table>
+
+    {% if hotel.note %}
+      {{ hotel.note }}
+    {% endif %}
+
+    {% if hotel.reservation-link %}
+      <p class="text-center">
+        <a href="{{ hotel.reservation-link }}" class="btn btn-primary" role="button"><i class="fa fa-hotel"></i>&nbsp;&nbsp;&nbsp;Online Reservation&nbsp;&nbsp;&nbsp;</a>
+      </p>
+    {% endif %}
+
+    {% if hotel.map %}
+      <iframe src="{{ hotel.map }}" width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="{{ hotel.id }}"></iframe>
+    {% endif %}
+
+  </div>
+</div>

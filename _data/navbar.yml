@@ -26,8 +26,8 @@
 #   url: /program.html
 #   icon: fa-list-ul
 # - name: Conference
-#   icon: fa-bar-chart
-#   submenu:
+  # icon: fa-bar-chart
+  # submenu:
 #     - name: Program
 #       url: /program.html
 #       # icon: fa-list-ul
