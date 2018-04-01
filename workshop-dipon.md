@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Distributed Information Processing in Wireless Networks
+title: DIPON
 short: DIPON'2018
 group: Workshops
 
 dates:
-    - info: Submission deadline
-      date: April, 1 2018
+    - info: <del>Submission deadline</del>
+      date: <del>April 1, 2018</del>
+    - info: Extended submission deadline
+      date: April 6, 2018
     - info: Acceptance notification
       date: May 2, 2018
     - info: Camera ready deadline
@@ -42,7 +44,7 @@ committees:
 
 ---
 
-## ACM MobiHoc Workshop on Distributed Information Processing in Wireless Networks
+## ACM MobiHoc Workshop on Distributed Information Processing in Wireless Networks (DIPON'2018)
 
 ### Workshop Program Highlights
 
