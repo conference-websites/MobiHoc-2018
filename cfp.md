@@ -1,7 +1,7 @@
 ---
 layout: default
 title: <del>Call for Papers</del>
-group: "Author Information"
+group: Calls
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Call for Posters
-group: "Author Information"
+title: <del>Call for Posters</del>
+group: Calls
 
 ---
 

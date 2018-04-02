@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Call for Workshops
-group: "Author Information"
+title: <del>Call for Workshops</del>
+group: Calls
 
 ---
 

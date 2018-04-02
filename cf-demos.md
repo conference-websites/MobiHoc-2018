@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Call for Demos
-group: "Author Information"
+title: <del>Call for Demos</del>
+group: Calls
 
 ---
 

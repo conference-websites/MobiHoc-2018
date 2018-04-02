@@ -25,9 +25,9 @@
 # - name: Program
 #   url: /program.html
 #   icon: fa-list-ul
-# - name: Conference
-  # icon: fa-bar-chart
-  # submenu:
+- name: Conference
+  icon: fa-bar-chart
+  submenu:
 #     - name: Program
 #       url: /program.html
 #       # icon: fa-list-ul
@@ -41,8 +41,8 @@
 #       url: /awards.html
 #     - name: Social Events
 #       url: /social-events.html
-#     - name: Accepted Papers
-#       url: /accepted-papers.html
+    - name: Accepted Papers
+      url: /accepted-papers.html
 - name: Workshops
   icon: fa-bullhorn
   submenu:
@@ -58,27 +58,8 @@
       url: /workshop-iot-sensing.html
     - name: SmartCitySecurity
       url: /workshop-smart-city-security.html
-- name: Author Information
-  icon: fa-bullhorn
-  submenu:
-    - name: Submission Instructions
-      url: /submission.html
-    - name: Camera-Ready Instructions
-      url: /camera-ready.html
-    - name: <del>Call for Papers</del>
-      url: /cfp.html
-    - name: Call for Workshops
-      url: /cfw.html
-    - name: Call for Posters
-      url: /cf-posters.html
-    - name: Call for Demos
-      url: /cf-demos.html
-    - name: Author Registration Policy
-      url: /policy-author-registration.html
-    - name: No-Show Policy
-      url: /policy-no-show.html
-- name: Attendee Information
-  icon: fa-bullhorn
+- name: Local Information
+  icon: fa-map
   submenu:
     # - name: <del>Call for Travel Grants</del>
     #   url: /cf-travel-grants.html
@@ -90,6 +71,25 @@
       url: /accommodations.html
     # - name: Room Share
     #   url: /room-share.html
+- name: Calls
+  icon: fa-bullhorn
+  submenu:
+    - name: Submission Instructions
+      url: /submission.html
+    - name: Camera-Ready Instructions
+      url: /camera-ready.html
+    - name: <del>Call for Papers</del>
+      url: /cfp.html
+    - name: <del>Call for Workshops</del>
+      url: /cfw.html
+    - name: <del>Call for Posters</del>
+      url: /cf-posters.html
+    - name: <del>Call for Demos</del>
+      url: /cf-demos.html
+    - name: Author Registration Policy
+      url: /policy-author-registration.html
+    - name: No-Show Policy
+      url: /policy-no-show.html
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
   icon: fa-book

@@ -23,13 +23,13 @@ google:
 
 ## Note. Uncomment and update spreadsheet parameters to enable pulling program
 ##       data from Google Sheet(s)
-# program:
-#   # If the specified file doesn't exist, there will be command-line dialog to create it
-#   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
-#   google_client_id: .travis.d/google_client_id.json
-#   # Google spreadsheet with the conference data
-#   spreadsheet:
-#     - "1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE" # main
+program:
+  # If the specified file doesn't exist, there will be command-line dialog to create it
+  # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+  google_client_id: .travis.d/google_client_id.json
+  # Google spreadsheet with the conference data
+  spreadsheet:
+    - "1CpBboHnT_HugUIc1sgOZc-henBHZTD6E0DgbdEq1PsQ" # main
 
 assets:
   caching:

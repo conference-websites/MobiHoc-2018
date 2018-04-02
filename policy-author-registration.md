@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Author Registration Policy
-group: Author Information
+group: Calls
 
 ---
 
