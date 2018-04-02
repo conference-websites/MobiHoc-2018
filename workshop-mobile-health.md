@@ -7,6 +7,8 @@ group: Workshops
 dates:
     - info: Submission deadline
       date: April 1, 2018
+    - info: Extended submission deadline (FIRM)
+      date: April 12, 2018
     - info: Acceptance notification
       date: April 30, 2018
     - info: Camera ready deadline
