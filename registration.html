@@ -1,0 +1,85 @@
+---
+layout: default
+title: "<b>>> Register Now <<</b>"
+
+registrations:
+  early:
+    - type: Conference Only
+      price: [700, 875, 300]
+    - type: Conference + Workshop
+      price: [850, 1125, 350]
+    - type: Workshop Only
+      price: [300, 400, 150]
+  late:
+    - type: Conference Only
+      price: [800, 975, 400]
+    - type: Conference + Workshop
+      price: [950, 1225, 450]
+    - type: Workshop Only
+      price: [350, 450, 200]
+
+---
+
+<h1>Registration</h1>
+
+<h2>A Special Note on Author Registration Policy</h2>
+
+<p>Each accepted paper/poster must be presented by one of its author(s) at the MobiHoc main conference or workshop.</p>
+<p><b>To present a paper/poster at the conference or any one of the workshops, at least one author should register at the full (non-student) rates.</b></p>
+
+<p>&nbsp;</p>
+
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="http://www.regonline.com/mobihoc2018" class="btn btn-primary btn-block" role="button">&gt;&gt; Register Now &lt;&lt;</a>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>All fees are in US$, payable via credit card.</p>
+
+<div class="list-group condensed">
+  <div class="list-group-item active">Early Registration (Before May 27, 2018 11:59pm CDT)</div>
+
+  <div class="list-group-item">
+    <div class="row">
+      <div class="col-md-3"><p><b>Event</b></p></div>
+      <div class="col-md-3"><p><b>Member</b></p></div>
+      <div class="col-md-3"><p><b>Non-Member</b></p></div>
+      <div class="col-md-3"><p><b>Student</b></p></div>
+    </div>
+  </div>
+  {% for reg in page.registrations.early %}
+  <div class="list-group-item">
+    <div class="row">
+      <div class="col-md-3"><p>{{ reg.type }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[0] }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[1] }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[2] }}</p></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="list-group">
+  <div class="list-group-item active">Late Registration (Starting from May 28, 2017 00:00am CDT)</div>
+  <div class="list-group-item">
+    <div class="row">
+      <div class="col-md-3"><p><b>Event</b></p></div>
+      <div class="col-md-3"><p><b>Member</b></p></div>
+      <div class="col-md-3"><p><b>Non-Member</b></p></div>
+      <div class="col-md-3"><p><b>Student</b></p></div>
+    </div>
+  </div>
+  {% for reg in page.registrations.late %}
+  <div class="list-group-item">
+    <div class="row">
+      <div class="col-md-3"><p>{{ reg.type }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[0] }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[1] }}</p></div>
+      <div class="col-md-3"><p>${{ reg.price[2] }}</p></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

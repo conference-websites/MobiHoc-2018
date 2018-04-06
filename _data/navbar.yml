@@ -19,8 +19,8 @@
     - name: TPC Meeting
       url: /tpc-meeting.html
       # icon: fa-users
-# - name: ">> Register Now <<"
-#   url: /registration.html
+- name: "<b>>> Register Now <<</b>"
+  url: /registration.html
 #   highlight: menu-hl
 # - name: Program
 #   url: /program.html
