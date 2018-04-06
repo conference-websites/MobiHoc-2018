@@ -44,19 +44,19 @@ registrations:
 
   <div class="list-group-item">
     <div class="row">
-      <div class="col-md-3"><p><b>Event</b></p></div>
-      <div class="col-md-3"><p><b>Member</b></p></div>
-      <div class="col-md-3"><p><b>Non-Member</b></p></div>
-      <div class="col-md-3"><p><b>Student</b></p></div>
+      <div class="col-md-3"><b>Event</b></div>
+      <div class="col-md-3"><b>Member</b></div>
+      <div class="col-md-3"><b>Non-Member</b></div>
+      <div class="col-md-3"><b>Student</b></div>
     </div>
   </div>
   {% for reg in page.registrations.early %}
   <div class="list-group-item">
     <div class="row">
-      <div class="col-md-3"><p>{{ reg.type }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[0] }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[1] }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[2] }}</p></div>
+      <div class="col-md-3">{{ reg.type }}</div>
+      <div class="col-md-3">${{ reg.price[0] }}</div>
+      <div class="col-md-3">${{ reg.price[1] }}</div>
+      <div class="col-md-3">${{ reg.price[2] }}</div>
     </div>
   </div>
   {% endfor %}
@@ -66,19 +66,19 @@ registrations:
   <div class="list-group-item active">Late Registration (Starting from May 28, 2017 00:00am CDT)</div>
   <div class="list-group-item">
     <div class="row">
-      <div class="col-md-3"><p><b>Event</b></p></div>
-      <div class="col-md-3"><p><b>Member</b></p></div>
-      <div class="col-md-3"><p><b>Non-Member</b></p></div>
-      <div class="col-md-3"><p><b>Student</b></p></div>
+      <div class="col-md-3"><b>Event</b></div>
+      <div class="col-md-3"><b>Member</b></div>
+      <div class="col-md-3"><b>Non-Member</b></div>
+      <div class="col-md-3"><b>Student</b></div>
     </div>
   </div>
   {% for reg in page.registrations.late %}
   <div class="list-group-item">
     <div class="row">
-      <div class="col-md-3"><p>{{ reg.type }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[0] }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[1] }}</p></div>
-      <div class="col-md-3"><p>${{ reg.price[2] }}</p></div>
+      <div class="col-md-3">{{ reg.type }}</div>
+      <div class="col-md-3">${{ reg.price[0] }}</div>
+      <div class="col-md-3">${{ reg.price[1] }}</div>
+      <div class="col-md-3">${{ reg.price[2] }}</div>
     </div>
   </div>
   {% endfor %}
