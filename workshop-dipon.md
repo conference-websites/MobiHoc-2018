@@ -44,7 +44,7 @@ committees:
 
 ---
 
-## ACM MobiHoc Workshop on Distributed Information Processing in Wireless Networks (DIPON'2018)
+## (Canceled) ACM MobiHoc Workshop on Distributed Information Processing in Wireless Networks (DIPON'2018)
 
 ### Workshop Program Highlights
 

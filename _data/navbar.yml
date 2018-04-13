@@ -52,8 +52,8 @@
       url: /workshop-frontiers.html
     - name: SmartObjects
       url: /workshop-smartobjects.html
-    - name: DIPON
-      url: /workshop-dipon.html
+    # - name: DIPON
+    #   url: /workshop-dipon.html
     - name: Mobile IoT Sensing, Security, and Privacy
       url: /workshop-iot-sensing.html
     - name: SmartCitySecurity
