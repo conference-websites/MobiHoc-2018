@@ -12,7 +12,9 @@ dates:
     - info: Acceptance notification
       date: April 30, 2018
     - info: Camera ready deadline
-      date: May 10, 2018
+      date: <del>May 10, 2018</del>
+    - info: Extended camera ready deadline
+      date: May 18, 2018 11:59pm PDT
 
 committees:
     - role: Workshop Co-Chairs
