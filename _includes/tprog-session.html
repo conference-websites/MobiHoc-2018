@@ -1,5 +1,5 @@
-<li class="ui-li ui-bar-{% if include.is_break %}b{% else %}a{% endif %} prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %} {% if site.enable_remote and session.remote and session.remote != "" %}ui-li-has-remote{% endif %}" data-role="list-divider">
-  <h3>
+<div class="list-group-item list-group-item-{% if include.is_break %}break{% else %}info{% endif %}">
+  <h4>
     {{ session.time }}
     {% if session.link and session.link != "" %}
       <a href="{{ session.link }}">{{ session.title }}</a>
@@ -9,7 +9,7 @@
     {% if include.is_break and session.room and session.room %}
       ({{ session.room }})
     {% endif %}
-  </h3>
+  </h4>
   {% if include.is_break != true %}
     {% if session.authors and session.authors != "" %}
       <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
@@ -34,10 +34,4 @@
       </div>
     {% endif %}
   {% endif %}
-</li>
-{% comment %}
-  // a list divider is not visible if not followed by an ordinary item,
-  // when data-filter is true. workaround: included an invisible li.
-  // here we include the session title so that it can be searchable
-{% endcomment %}
-<li class="hidden">{{ session.title }}</li>
+</div>
