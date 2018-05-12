@@ -25,6 +25,9 @@
 # - name: Program
 #   url: /program.html
 #   icon: fa-list-ul
+- name: <b>Student Travel Grants</b>
+  icon: fa-bullhorn
+  url: /student-travel-grants.html
 - name: Conference
   icon: fa-bar-chart
   submenu:
@@ -58,6 +61,9 @@
       url: /workshop-iot-sensing.html
     - name: SmartCitySecurity
       url: /workshop-smart-city-security.html
+- name: Tutorials
+  icon: fa-bullhorn
+  url: /tutorials.html
 - name: Local Information
   icon: fa-map
   submenu:
