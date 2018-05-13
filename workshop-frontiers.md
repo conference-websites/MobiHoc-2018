@@ -2,7 +2,7 @@
 layout: default
 title: Frontiers of Networks
 short: Frontiers of Networks'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: Submission deadline

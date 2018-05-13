@@ -2,7 +2,7 @@
 layout: default
 title: MobileHealth
 short: MobileHealth'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: Submission deadline

@@ -2,7 +2,7 @@
 layout: default
 title: SmartObjects
 short: SmartObjects'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: Submission deadline

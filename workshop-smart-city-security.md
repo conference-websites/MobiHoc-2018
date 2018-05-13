@@ -2,7 +2,7 @@
 layout: default
 title: SmartCitySecurity
 short: SmartCitySecurity'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: Submission deadline

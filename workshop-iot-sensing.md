@@ -2,7 +2,7 @@
 layout: default
 title: Mobile IoT Sensing, Security, and Privacy
 short: IoT Sensing'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: Submission deadline

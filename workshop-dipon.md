@@ -2,7 +2,7 @@
 layout: default
 title: DIPON
 short: DIPON'2018
-group: Workshops
+group: Workshops and Tutorials
 
 dates:
     - info: <del>Submission deadline</del>

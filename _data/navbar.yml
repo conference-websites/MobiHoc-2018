@@ -46,7 +46,7 @@
 #       url: /social-events.html
     - name: Accepted Papers
       url: /accepted-papers.html
-- name: Workshops
+- name: Workshops and Tutorials
   icon: fa-bullhorn
   submenu:
     - name: MobileHealth
@@ -61,9 +61,8 @@
       url: /workshop-iot-sensing.html
     - name: SmartCitySecurity
       url: /workshop-smart-city-security.html
-- name: Tutorials
-  icon: fa-bullhorn
-  url: /tutorials.html
+    - name: "Tutorial: Blockchain Tech & Apps"
+      url: /tutorials.html
 - name: Local Information
   icon: fa-map
   submenu:
