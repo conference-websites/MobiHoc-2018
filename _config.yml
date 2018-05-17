@@ -4,7 +4,7 @@ destination: ./_site
 plugins_dir: ./_plugins
 highlighter: rouge
 markdown: kramdown
-exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache', '.asset-cache']
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache', '.asset-cache', '.travis.d']
 
 plugins:
   - jekyll-assets

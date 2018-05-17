@@ -28,6 +28,9 @@
 - name: <b>Student Travel Grants</b>
   icon: fa-bullhorn
   url: /student-travel-grants.html
+- name: N2Women Fellowships
+  icon: fa-bullhorn
+  url: /n2women-fellowships.html
 - name: Conference
   icon: fa-bar-chart
   submenu:
