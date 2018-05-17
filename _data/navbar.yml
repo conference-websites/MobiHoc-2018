@@ -36,6 +36,8 @@
   submenu:
     - name: Program
       url: /program.html
+    - name: Program Highlights
+      url: /keynotes.html
 #       # icon: fa-list-ul
 #     - name: Posters
 #       url: /program-posters.html
