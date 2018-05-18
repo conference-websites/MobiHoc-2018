@@ -62,15 +62,15 @@ committees:
 
     - role: Registration Chair
       people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Peter Reiher
+        affiliation: University of California, Los Angeles
+        homepage:    https://lasr.cs.ucla.edu/reiher/
 
     - role: Travel Grant Chair
       people:
-      - name:        TBD
-        affiliation: 
-        homepage:    
+      - name:        Mario Gerla
+        affiliation: University of California, Los Angeles
+        homepage:    http://web.cs.ucla.edu/~gerla/
 
     - role: Finance Chair
       people:
