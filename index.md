@@ -14,9 +14,11 @@ It will bring together researchers and practitioners from a broad spectrum of ne
 MobiHoc 2018 will feature a highly selective technical program, multiple distinguished keynote addresses, and an exciting panel.
 In addition, it includes workshops that are focused on areas of emerging interest.
 
-## Conference Program
+## Advance Conference Program Highlights
 
-[{% asset program-at-glance.png %}{: style="max-width: 100%" alt="ACM MobiHoc 2018 - Program-at-Glance"}]({% asset program-at-glance.pdf @path %}){: target="_blank"}
+Kindly note that the schedule below is tentative and subject to updates.
+
+[{% asset program-at-glance.png %}{: style="max-width: 100%" alt="ACM MobiHoc 2018 - Program-at-Glance"}](program.html)
 {: style="text-align: center;"}
 
 <br/>

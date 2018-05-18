@@ -26,7 +26,7 @@ group: Conference
 
 - [Karl H. Johansson. KTH Royal Institute of Technology](https://people.kth.se/~kallej/)
 
-  **"Waiting for information on this"**
+  **"TBD"**
 
 
 ### Keynote 3

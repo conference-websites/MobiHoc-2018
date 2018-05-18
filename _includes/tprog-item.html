@@ -9,6 +9,9 @@
 
 <div class="list-group-item">
   <h5>
+    {% if paper.time and paper.time != "" %}
+      {{ paper.time }}&nbsp;&nbsp;&nbsp;
+    {% endif %}
     {% if has_link %}
       <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
     {% else %}

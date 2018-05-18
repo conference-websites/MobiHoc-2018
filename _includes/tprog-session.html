@@ -1,15 +1,15 @@
 <div class="list-group-item list-group-item-{% if include.is_break %}break{% else %}info{% endif %}">
-  <h4>
-    {{ session.time }}
+  <h5>
+    {{ session.time }}&nbsp;&nbsp;&nbsp;
     {% if session.link and session.link != "" %}
       <a href="{{ session.link }}">{{ session.title }}</a>
     {% else %}
       {{ session.title }}
     {% endif %}
-    {% if include.is_break and session.room and session.room %}
+    {% if include.is_break and session.room and session.room != "" %}
       ({{ session.room }})
     {% endif %}
-  </h4>
+  </h5>
   {% if include.is_break != true %}
     {% if session.authors and session.authors != "" %}
       <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
