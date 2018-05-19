@@ -31,6 +31,14 @@ program:
   spreadsheet:
     - "1CpBboHnT_HugUIc1sgOZc-henBHZTD6E0DgbdEq1PsQ" # main
 
+program-at-glance:
+  # If the specified file doesn't exist, there will be command-line dialog to create it
+  # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
+  google_client_id: .travis.d/google_client_id.json
+  # Google spreadsheet with the conference data
+  spreadsheet:
+    - "1Mcgwl3mN0KkAWr9DJOVy9Nx-4iF2kqqEOk5yXK00meo"
+
 assets:
   caching:
     path: .sass-cache/assets
@@ -44,6 +52,7 @@ assets:
     - _assets/js
     - _assets/bower
     - _assets/calls
+    - .sass-cache
 
   autoprefixer:
     browsers:
