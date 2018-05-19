@@ -24,6 +24,9 @@ group :jekyll_plugins do
   gem 'google_drive', '~> 2.1', '>= 2.1.8'
   gem 'jekyll-last-modified-at', '~> 1.0', '>= 1.0.1'
   gem 'jekyll-sitemap', '~> 1.2'
+
+  gem 'execjs', '~> 2.7'
+  gem 'therubyracer', '~> 0.12.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
