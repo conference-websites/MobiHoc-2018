@@ -13,6 +13,7 @@ addons:
     - texlive-extra-utils
     - imagemagick
     - ghostscript
+    - poppler-utils
 env:
   global:
   - JEKYLL_ENV=production

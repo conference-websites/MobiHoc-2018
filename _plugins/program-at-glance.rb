@@ -56,6 +56,12 @@ module Jekyll
                   end
                   system("pdfcrop #{file}.pdf #{file}.pdf")
                   system("convert -density 200 #{file}.pdf #{file}.png")
+
+                  width = %x[pdfinfo "#{file}.pdf" | grep "Page size" | awk '{print $3}'].to_i
+                  height = %x[pdfinfo "#{file}.pdf" | grep "Page size" | awk '{print $5}'].to_i
+
+                  system("gs -o #{file}-tmp.pdf -sDEVICE=pdfwrite -dDEVICEWIDTHPOINTS=#{width * 2} -dDEVICEHEIGHTPOINTS=#{height * 2} -dPDFFitPage #{file}.pdf")
+                  system("rm #{file}.pdf && mv #{file}-tmp.pdf #{file}.pdf")
                 end
                 File.write fileMeta, ws.updated
               rescue
