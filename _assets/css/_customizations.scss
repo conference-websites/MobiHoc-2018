@@ -46,3 +46,17 @@ table.hotel {
 .list-group-item-break {
     background-color: #DCDCDC;
 }
+
+.program h5 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: $font-size-base;
+}
+
+.program>.panel-title>p {
+    margin-bottom: 0px;
+}
+
+.program .panel {
+    margin-bottom: 0px;
+}
