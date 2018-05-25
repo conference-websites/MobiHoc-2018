@@ -12,12 +12,12 @@
 
   {% comment %}<!-- make space for the button(s) -->{% endcomment %}
   {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
-                                                                                           if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
-                                                                                                                                                                                 if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
+     if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
+     if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
   {% assign expanded = true %}
   {% unless collapsible %}
     {% assign collapsible = 1 %}
-{% else %}
+  {% else %}
     {% assign collapsible = collapsible | plus: 1 %}
   {% endunless %}
 

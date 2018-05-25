@@ -48,6 +48,10 @@ committees:
 ### [>> Workshop website, call for papers, submission instructions <<](http://www.grc.upv.es/smartobjects2018/)
 {: style="text-align: center; margin-bottom: 1em;" }
 
+### Program
+
+{% include program-online.html type="ws-smartobjects" %}
+
 ### Call For Papers
 
 Internet of Things, Smart-cities and Fog computing are representative examples of modern ICT paradigms that aim to describe a dynamic and global cooperative infrastructure built upon objects intelligence and self-configuring capabilities; these connected objects are finding their way into vehicles (smart-cars), urban areas (smart-cities) and infrastructure (smart-grid).

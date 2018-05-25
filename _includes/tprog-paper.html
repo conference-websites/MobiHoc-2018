@@ -13,6 +13,32 @@
    if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
    if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
 
+{% assign expanded = false %}
+{% unless collapsible %}
+  {% assign collapsible = 1 %}
+{% else %}
+  {% assign collapsible = collapsible | plus: 1 %}
+{% endunless %}
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h5 class="panel-title">
+      <a data-toggle="collapse" data-target="#collapsiblePaper{{ collapsible }}">
+        {{ paper.title }}
+        <span class="pull-right clickable {% unless expanded %}panel-collapsed{% endunless %}"><i class="glyphicon glyphicon-chevron-{% if expanded %}up{% else %}down{% endif %}"></i></span>
+      </a>
+    </h5>
+
+    <p>{% if has_link %}<a href="{{  paper.link }}">{% endif %}{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}{% if has_link %}</a>{% endif %}</p>
+  </div>
+  <div id="collapsiblePaper{{ collapsible }}" class="panel-body small collapse {% if expanded %}in{% else %}out{% endif %}">
+    <p>
+      <b>Abstract: </b>{{ paper.abstract }}
+    </p>
+  </div>
+</div>
+
+{% comment %}
 <li class="panel prog-item {{ progitemclass }}">
   <h4>
     <div {{ item_style }}>
@@ -51,5 +77,6 @@
     </li>
   </ul>
 </li>
+{% endcomment %}
 
 {% endif %}
