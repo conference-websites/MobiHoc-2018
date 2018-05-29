@@ -44,13 +44,9 @@ committees:
 
 ## 1st ACM MobiHoc Workshop on Networking and Cybersecurity for Smart Cities (SmartCitySecurity 2018)
 
-{% comment %}
+### Workshop Program
 
-<!-- ### Workshop Program -->
-
-<!-- {% include program-online.html type="dipon" %} -->
-
-{% endcomment %}
+{% include program-online.html type="ws-smartcitiessecurity" %}
 
 ### Call For Papers
 
