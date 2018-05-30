@@ -66,13 +66,9 @@ committees:
 
 ## 1st ACM MobiHoc Workshop on Mobile IoT Sensing, Security, and Privacy
 
-{% comment %}
+### Workshop Program
 
-<!-- ### Workshop Program -->
-
-<!-- {% include program-online.html type="dipon" %} -->
-
-{% endcomment %}
+{% include program-online.html type="ws-mobile-iot-sensing" %}
 
 ### Call For Papers
 
@@ -115,6 +111,6 @@ All submissions will be reviewed using a single-blind review process.
   </div>
 </div>
 
-### Committees
+{% comment %} ### Committees {% endcomment %}
 
 {% include committees.html committees=page.committees %}
