@@ -26,7 +26,7 @@
       <h5 class="panel-title">
         <a data-toggle="collapse" data-target="#collapsibleKeynote{{ collapsible }}">
           {{ keynote.time }}&nbsp;&nbsp;&nbsp;
-          {{ keynote.title }}
+          Keynote: {{ keynote.title }}
           <span class="pull-right clickable {% unless expanded %}panel-collapsed{% endunless %}"><i class="glyphicon glyphicon-chevron-{% if expanded %}up{% else %}down{% endif %}"></i></span>
         </a>
       </h5>
@@ -42,8 +42,8 @@
         {% endif %}
         {% if has_bio %}
           <p>
-            {% if keynote.photo and keynote.photo != "" %}<img class="keynote-photo" src="{{ keynote.photo }}"/>{% endif %}
-            <b>Bio: </b>{{ keynote.bio }}
+            {% if keynote.photo and keynote.photo != "" %}{% asset '{{ keynote.photo }}' class="keynote-photo" srcset:width="150 1x" %}{% endif %}
+            <div><b>Bio: </b>{{ keynote.bio }}</div>
           </p>
         {% endif %}
       {% endif %}
