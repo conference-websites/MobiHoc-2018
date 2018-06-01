@@ -30,8 +30,8 @@
 - name: Conference
   icon: fa-bar-chart
   submenu:
-    # - name: Program
-    #   url: /program.html
+    - name: Program
+      url: /program.html
     - name: Program Highlights
       url: /keynotes.html
 #       # icon: fa-list-ul
