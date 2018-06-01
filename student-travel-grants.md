@@ -1,6 +1,7 @@
 ---
 layout: default
-title: <b>Student Travel Grants</b>
+title: Student Travel Grants
+group: Calls
 
 dates:
     - info: Application submission deadline

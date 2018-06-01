@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Program
-group: Conference
 
 ---
 

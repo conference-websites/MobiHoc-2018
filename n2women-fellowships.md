@@ -1,6 +1,7 @@
 ---
 layout: default
 title: N2Women Fellowships
+group: Calls
 
 dates:
     - info: Application submission deadline

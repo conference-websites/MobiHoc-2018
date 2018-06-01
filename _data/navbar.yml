@@ -16,26 +16,22 @@
     - name: Program Committee
       url: /tpc.html
       # icon: fa-users
-    - name: TPC Meeting
-      url: /tpc-meeting.html
-      # icon: fa-users
+    # - name: TPC Meeting
+    #   url: /tpc-meeting.html
+    #   # icon: fa-users
 - name: "<b>>> Register Now <<</b>"
   url: /registration.html
 #   highlight: menu-hl
 # - name: Program
 #   url: /program.html
 #   icon: fa-list-ul
-- name: <b>Student Travel Grants</b>
-  icon: fa-bullhorn
-  url: /student-travel-grants.html
-- name: N2Women Fellowships
-  icon: fa-bullhorn
-  url: /n2women-fellowships.html
+- name: Program
+  url: /program.html
 - name: Conference
   icon: fa-bar-chart
   submenu:
-    - name: Program
-      url: /program.html
+    # - name: Program
+    #   url: /program.html
     - name: Program Highlights
       url: /keynotes.html
 #       # icon: fa-list-ul
@@ -51,6 +47,8 @@
 #       url: /social-events.html
     - name: Accepted Papers
       url: /accepted-papers.html
+    - name: Program Committee
+      url: /tpc.html
 - name: Workshops and Tutorials
   icon: fa-bullhorn
   submenu:
@@ -100,6 +98,12 @@
       url: /policy-author-registration.html
     - name: No-Show Policy
       url: /policy-no-show.html
+    - name: Student Travel Grants
+      # icon: fa-bullhorn
+      url: /student-travel-grants.html
+    - name: N2Women Fellowships
+      # icon: fa-bullhorn
+      url: /n2women-fellowships.html
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
   icon: fa-book
