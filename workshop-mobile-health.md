@@ -155,6 +155,11 @@ committees:
 ### [>> Workshop website, call for papers, submission instructions <<](https://sites.google.com/view/mobilehealth2018/home)
 {: style="text-align: center; margin-bottom: 1em;" }
 
+### Workshop Program
+
+{% include program-online.html type="ws-mobile-health" %}
+
+
 {% comment %}
 
 <!-- ### Workshop Program -->
