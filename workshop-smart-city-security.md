@@ -35,11 +35,6 @@ committees:
          affiliation: UPV, Valencia, Spain
          email:       jlloret@dcom.upv.es
 
-    - role: Technical Program Committee
-      people:
-       - name: TBD
-         affiliation: TBD
-
 ---
 
 ## 1st ACM MobiHoc Workshop on Networking and Cybersecurity for Smart Cities (SmartCitySecurity 2018)
