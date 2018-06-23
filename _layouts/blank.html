@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }} | {{ page.title }}</title>
+
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel='shortcut icon' type='image/x-icon' href='{{ site.baseurl }}/favicon.ico' />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}" />
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="{{ site.url }}{% asset banner.jpg @path %}" />
+
+    {% asset main-no-print.css %}
+<style>
+i.glyphicon {
+color: rgba(255, 0, 0, 0);
+}
+
+h3 {
+margin-top: 6px;
+margin-bottom: 6px;
+page-break-after: avoid;
+}
+
+div.list-group-item.active {
+page-break-after: avoid;
+}
+
+p, h5 {
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+body, .container {
+background-color: rgba(0, 0, 0, 0);
+}
+
+div {
+page-break-inside: avoid;
+}
+
+h3, .program h3 {
+font-size: 18px;
+}
+
+h5, .program h5 {
+font-size: 14px;
+}
+
+p, div {
+font-size: 12px;
+}
+
+</style>
+
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container" id="page-content-wrapper">
+        <div class="row">
+          <!-- CONTENT -->
+          <div class="col-sm-12 col-lg-12">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

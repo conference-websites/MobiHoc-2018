@@ -35,6 +35,8 @@
     </div>
     <div id="collapsibleKeynote{{ collapsible }}" class="panel-body small collapse {% if expanded %}in{% else %}out{% endif %}">
       {% if has_abstract or has_bio %}
+        {% if keynote.photo and keynote.photo != "" %}{% asset '{{ keynote.photo }}' class="keynote-photo" srcset:width="150 1x" %}{% endif %}
+
         {% if has_abstract %}
           <p>
             <b>Abstract: </b>{{ keynote.abstract }}
@@ -42,7 +44,6 @@
         {% endif %}
         {% if has_bio %}
           <p>
-            {% if keynote.photo and keynote.photo != "" %}{% asset '{{ keynote.photo }}' class="keynote-photo" srcset:width="150 1x" %}{% endif %}
             <div><b>Bio: </b>{{ keynote.bio }}</div>
           </p>
         {% endif %}
