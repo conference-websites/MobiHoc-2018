@@ -2,9 +2,9 @@
   <div class="program list-group">
     {% for item in include.data %}
       {% if    item.type == "day"         %}
-        <br/>
+        {% unless forloop.first %}<br/>{% endunless %}
         {% assign progdate = item.time | downcase | split: "," | first %}{% assign progitemclass = "prog-" | append: progdate %}
-        <div class="list-group-item active" {%  comment %}{% unless forloop.first%} style="page-break-before: always;"{% endunless %}{% endcomment %}>
+        <div class="list-group-item active" {%  comment %}{% unless forloop.first %} style="page-break-before: always;"{% endunless %}{% endcomment %}>
           <h3>{{ item.time }}{% if item.room and item.room != "" %}, {{ item.room }}{% endif %}</h3>
         </div>
       {% elsif item.type == "break"       %}

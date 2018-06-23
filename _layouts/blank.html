@@ -22,9 +22,16 @@ i.glyphicon {
 color: rgba(255, 0, 0, 0);
 }
 
-h3 {
+h1 {
 margin-top: 6px;
-margin-bottom: 6px;
+margin-bottom: 8px;
+font-size: 25px;
+text-align: center;
+}
+
+h3 {
+margin-top: 2px;
+margin-bottom: 2px;
 page-break-after: avoid;
 }
 
@@ -41,12 +48,12 @@ body, .container {
 background-color: rgba(0, 0, 0, 0);
 }
 
-div {
+div.list-group-item {
 page-break-inside: avoid;
 }
 
 h3, .program h3 {
-font-size: 18px;
+font-size: 16px;
 }
 
 h5, .program h5 {
@@ -55,6 +62,21 @@ font-size: 14px;
 
 p, div {
 font-size: 12px;
+}
+
+.list-group-item.active {
+background-color: #333333;
+}
+
+.list-group-item-info, .list-group-item-info a,
+.panel-info .panel-heading, .panel-info .panel-heading a {
+background-color: #999999;
+color: #ffffff;
+}
+
+.list-group-item {
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 </style>
