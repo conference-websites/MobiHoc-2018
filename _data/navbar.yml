@@ -27,6 +27,17 @@
 #   icon: fa-list-ul
 - name: Program
   url: /program.html
+  submenu:
+    - name: Full Program
+      url: /program.html
+    - name: Program (Monday)
+      url: /program-mon.html
+    - name: Program (Tuesday)
+      url: /program-tue.html
+    - name: Program (Wednesday)
+      url: /program-wed.html
+    - name: Program (Thursday)
+      url: /program-thu.html
 - name: Conference
   icon: fa-bar-chart
   submenu:
