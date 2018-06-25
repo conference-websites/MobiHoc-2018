@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accommodations
-group: Attendee Information
+group: Local Information
 
 hotels:
 - category: On Campus

@@ -84,6 +84,8 @@
     #   url: /cf-travel-grants.html
     - name: Venue
       url: /venue.html
+    - name: Helpful Maps
+      url: /maps.html
     - name: Visa Information
       url: /visa.html
     - name: Accommodations

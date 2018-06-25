@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Visa Information
-group: Attendee Information
+group: Local Information
 
 ---
 
