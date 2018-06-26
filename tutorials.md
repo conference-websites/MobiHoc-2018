@@ -12,6 +12,11 @@ We will explore the basics of both open and permissioned blockchains, smart cont
 We will look at various applications being proposed for blockchain technologies including supply chains, decentralized application layer services for the Internet, IoT and edge computing applications.
 We will also explore emerging technologies and applications of particular interest to the wireless and mobile networking community.
 
+<p markdown="1" style="text-align:center;">
+[{% asset tutorial-slide-1.jpg srcset:width="800 1x" style="max-width: 100%;" alt="Tutorial slides" %}](https://tinyurl.com/blockchainTutorial)
+Tutorial slides
+</p>
+
 ## Presenter
 
 - **Bhaskar Krishnamachari**
