@@ -52,10 +52,8 @@
 #       url: /program-demos.html
 #     - name: Industrial Demos
 #       url: /program-industrial-demos.html
-#     - name: Awards
-#       url: /awards.html
-#     - name: Social Events
-#       url: /social-events.html
+    - name: Awards
+      url: /awards.html
     - name: Accepted Papers
       url: /accepted-papers.html
     - name: Program Committee

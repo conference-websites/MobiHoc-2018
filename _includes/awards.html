@@ -1,0 +1,19 @@
+{% assign abstract_label = 'Citation' %}
+
+{% for award in include.awards %}
+  <div id="{{ include.type }}-program" class="{{ include.type }}-program">
+    <div class="program list-group">
+      <div class="list-group-item active">
+        <h4>
+          {% if award.link %}<a href="{{ award.link }}" target="_blank" style="color:#F9E90C">{% endif %}
+            {{ award.type }}
+          {% if award.link %}</a>{% endif %}
+        </h4>
+      </div>
+
+    {% for paper in award.papers %}
+      {% include tprog-paper.html %}
+    {% endfor %}
+    </div>
+  </div>
+{% endfor %}
