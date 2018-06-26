@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACM MobiHoc 2018 Awards
+title: Awards
 group: Conference
 
 awards:
@@ -32,7 +32,7 @@ awards:
 
 ---
 
-# {{ page.title }}
+# ACM MobiHoc 2018 Awards
 
 {% include awards.html awards=page.awards %}
 
