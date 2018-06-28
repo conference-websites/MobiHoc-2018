@@ -28,8 +28,10 @@
         <span class="pull-right clickable {% unless expanded %}panel-collapsed{% endunless %}"><i class="glyphicon glyphicon-chevron-{% if expanded %}up{% else %}down{% endif %}"></i></span>
       </a>
     </h5>
+    {% if has_link %}<a href="{{ paper.link }}"><span class="pull-right clickable label label-primary">Paper</span></a>{% endif %}
+    {% if has_slides %}<a href="{{ paper.slides }}"><span class="pull-right clickable label label-primary">Slides</span></a>{% endif %}
 
-    <p>{% if has_link %}<a href="{{  paper.link }}">{% endif %}{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}{% if has_link %}</a>{% endif %}</p>
+    <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
   </div>
   <div id="collapsiblePaper{{ collapsible }}" class="panel-body small collapse {% if expanded %}in{% else %}out{% endif %}">
     <p>

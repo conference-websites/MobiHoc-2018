@@ -49,6 +49,7 @@ assets:
     - _assets/css
     - _assets/images
     - _assets/fonts
+    - _assets/files
     - _assets/js
     - _assets/bower
     - _assets/calls

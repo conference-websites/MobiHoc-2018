@@ -30,6 +30,8 @@
           <span class="pull-right clickable {% unless expanded %}panel-collapsed{% endunless %}"><i class="glyphicon glyphicon-chevron-{% if expanded %}up{% else %}down{% endif %}"></i></span>
         </a>
       </h5>
+      {% if has_slides %}<a href="{% asset "{{ keynote.slides }}" @path %}"><span class="pull-right clickable label label-primary">Slides</span></a>{% endif %}
+      {% if has_video %}<a href="{{ keynote.video }}"><span class="pull-right clickable label label-primary">Slides</span></a>{% endif %}
 
       <p>{% if has_link %}<a href="{{  keynote.link }}">{% endif %}{{ keynote.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}{% if has_link %}</a>{% endif %}</p>
     </div>

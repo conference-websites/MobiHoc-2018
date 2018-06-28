@@ -12,12 +12,10 @@
     {% if paper.time and paper.time != "" %}
       {{ paper.time }}&nbsp;&nbsp;&nbsp;
     {% endif %}
-    {% if has_link %}
-      <a href="{{ paper.link }}" rel="external" target="_blank" class="ui-link">{{ paper.title }}</a>
-    {% else %}
-      {{ paper.title }}
-    {% endif %}  
+    {{ paper.title }}
   </h5>
+  {% if has_link %}<a href="{{ paper.link }}"><span class="pull-right clickable label label-primary">Paper</span></a>{% endif %}
+  {% if has_slides %}<a href="{{ paper.slides }}"><span class="pull-right clickable label label-primary">Slides</span></a>{% endif %}
   <!-- /* the spaces after various "%s" below are important for correct list filtering! */ -->
   <p>{{ paper.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
   {% comment %}
