@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Full Program
-group: Program
+title: Program
+group: Conference
 
 ---
 

@@ -1,9 +1,9 @@
 - name: Welcome
   url: /
   icon: fa-home
-- name: Supporters
-  url: /supporters.html
-  icon: fa-handshake-o
+# - name: Supporters
+#   url: /supporters.html
+#   icon: fa-handshake-o
 # - name: "<b>>> Call for Workshops <<</b>"
 #   icon: fa-bullhorn
 #   url: /cfw.html
@@ -19,32 +19,30 @@
     # - name: TPC Meeting
     #   url: /tpc-meeting.html
     #   # icon: fa-users
-- name: "<b>>> Register Now <<</b>"
-  url: /registration.html
 #   highlight: menu-hl
 # - name: Program
 #   url: /program.html
 #   icon: fa-list-ul
-- name: Program
-  url: /program.html
-  submenu:
-    - name: Full Program
-      url: /program.html
-    - name: Program (Monday)
-      url: /program-mon.html
-    - name: Program (Tuesday)
-      url: /program-tue.html
-    - name: Program (Wednesday)
-      url: /program-wed.html
-    - name: Program (Thursday)
-      url: /program-thu.html
+# - name: Program
+#   url: /program.html
+#   submenu:
+#     - name: Full Program
+#       url: /program.html
+#     - name: Program (Monday)
+#       url: /program-mon.html
+#     - name: Program (Tuesday)
+#       url: /program-tue.html
+#     - name: Program (Wednesday)
+#       url: /program-wed.html
+#     - name: Program (Thursday)
+#       url: /program-thu.html
 - name: Conference
   icon: fa-bar-chart
   submenu:
     - name: Program
       url: /program.html
-    - name: Program Highlights
-      url: /keynotes.html
+    # - name: Program Highlights
+    #   url: /keynotes.html
 #       # icon: fa-list-ul
 #     - name: Posters
 #       url: /program-posters.html
@@ -54,10 +52,12 @@
 #       url: /program-industrial-demos.html
     - name: Awards
       url: /awards.html
-    - name: Accepted Papers
-      url: /accepted-papers.html
+    # - name: Accepted Papers
+    #   url: /accepted-papers.html
     - name: Program Committee
       url: /tpc.html
+    - name: "<del>Register Now</del>"
+      url: /registration.html
 - name: Workshops and Tutorials
   icon: fa-bullhorn
   submenu:
